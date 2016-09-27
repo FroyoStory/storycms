@@ -1,0 +1,71 @@
+nav.gh-nav
+  header.gh-nav-menu
+  section.gh-nav-body
+    section.gh-nav-search
+      .gh-nav-search-input
+    ul.gh-nav-list.gh-nav-main
+      li
+        a(v-link="{ name: 'PostCreate' }")
+          i.icon-pen
+          |New Post
+      li
+        a(v-link="{ name: 'PostList' }")
+          i.icon-content
+          |Content
+      li
+        a
+          i.icon-team
+          |Team
+
+  footer.gh-nav-footer
+    .gh-menu-toggle
+      i.icon-minimise
+    a.gh-nav-footer-sitelink View blog
+    .gh-help-menu
+      .closed
+        .gh-help-button
+          i.icon-question
+            span.hidden Help
+
+//- <nav class="ember-view gh-nav">
+//-   <header class="gh-nav-menu ember-view closed"></header>
+//-   <section class="gh-nav-body">
+//-     <section class="gh-nav-search">
+//-       <div class="gh-nav-search-input ember-view">
+//-         <div id="ember1082" class="ember-power-select ember-view ember-basic-dropdown ember-basic-dropdown--in-place">
+//-           <div aria-haspopup="true" class="ember-basic-dropdown-trigger ember-power-select-trigger" aria-controls="ember-basic-dropdown-content-ember1082" aria-disabled="false" aria-expanded="false" aria-pressed="false" id="ember-power-select-trigger-ember1073" role="button" tabindex="0">
+//-               <div id="ember1091" class="ember-view">
+//-                 <div class="ember-power-select-search">
+//-                 <input type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="combobox" placeholder="Search">
+//-                 <button class="gh-nav-search-button" data-ember-action="1092"><i class="icon-search"></i> <span class="sr-only">Search</span></button>
+//-               </div>
+//-             </div>
+//-           </div>
+//-         </div>
+//-       </div>
+//-     </section>
+//-     <ul class="gh-nav-list gh-nav-main">
+//-       <li><a href="/backend/posts/create"><i class="icon-pen"></i> New Post </a></li>
+//-       <li><a href="/backend/posts"><i class="icon-content"></i> Content </a></li>
+//-       <li><a href="/backend/teams"><i class="icon-team"></i> Team </a></li>
+//-     </ul>
+//-     <ul class="gh-nav-list gh-nav-settings">
+//-       <li class="gh-nav-list-h">Settings</li>
+//-       <li><a href="/backend/settings/general"><i class="icon-settings"></i> General </a></li>
+//-       <li><a href=""><i class="icon-compass"></i> Navigation </a></li>
+//-       <li><a href=""><i class="icon-tag"></i> Tags </a></li>
+//-       <li><a href=""><i class="icon-box"></i> Apps </a></li>
+//-     </ul>
+//-   </section>
+//-   <footer class="gh-nav-footer">
+//-     <div id="ember1314" class="ember-view gh-menu-toggle"><i class="icon-minimise"></i></div>
+//-     <a class="gh-nav-footer-sitelink" target="_blank" href="http://localhost:2368/">View blog</a>
+//-     <div class="gh-help-menu">
+//-       <div id="ember1315" role="button" class="ember-view closed">
+//-         <div class="gh-help-button">
+//-           <i class="icon-question"></i> <span class="hidden">Help</span></i>
+//-         </div>
+//-       </div>
+//-     </div>
+//-   </footer>
+//- </nav>

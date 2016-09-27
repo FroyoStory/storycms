@@ -1,0 +1,82 @@
+main.gh-main
+  section.gh-view
+    header.view-header
+      h2.view-title.gh-editor-title
+        input.gh-input(type="text" placeholder="Your Post Title" tabindex="1" shouldfocus="true" v-model="form.title")
+      section.view-actions
+        button.post-settings(@click="settings")
+          i.icon-settings
+        section.splitbtn.unsaved
+          button.btn.btn-sm.btn-blue(type="button", @click.prevent="save('draft')") Save Draft
+          dropdown
+            ul.dropdown-menu.dropdown-triangle-bottom-right
+              li.post-save-publish
+                a(href="" @click.prevent="save('publish')") Publish Now
+              li.post-save-publish
+                a(href="" @click.prevent="save('draft')") Save Draf
+    section.view-container.view-editor
+      section.entry-markdown.active
+        header.floatingheader
+          span.desktop-tabs
+            a.markdown-help-label(title="Markdown Help") Markdown
+          span.mobile-tabs
+            a.active Markdown
+            a Preview
+          a.markdown-help-icon(title="Markdown Help")
+            i.icon-markdown
+        section.entry-markdown-content
+          textarea.ember-text-area.markdown-editor(spellcheck="true" tabindex="1" v-model="form.markdown")
+      section.entry-preview
+        header.floatingheader
+          span.desktop-tabs
+            a Preview
+          span.mobile-tabs
+            a.active Markdown
+            a Preview
+          span.entry-word-count {{ form.markdown.length }} words
+        section.entry-preview-content
+          .rendered-markdown
+          div(v-html="form.markdown | marked")
+
+.settings-menu-container
+  .settings-menu-pane-in.settings-menu.settings-menu-pane
+    .settings-menu-header
+      h4 Post Settings
+      button.close.icon-x.settings-menu-header-action(@click="settings")
+    .settings-menu-content
+      form
+        .form-group
+          label Post URL
+          a.post-view-link Preview &nbsp;
+            i.icon-external
+          span.input-icon.icon-link
+            input.post-setting-slug.gh-input(type="text" v-model="form.slug")
+          p.ghost-url-preview.description localhost:2368/{{ form.slug }}
+        .form-group
+          label Publish Date
+          span.input-icon.icon-calendar
+            input.post-setting-date.gh-input(type="text", v-model="form.published_at")
+        .form-group.form-select
+          label Category
+          span.gh-select
+            select(v-model="form.author_id")
+              option(value="1") Purwandi
+        .form-group
+          label Meta title
+          input.gh-input(type="text" v-model="form.meta_title")
+          p Recomended : <b>70</b>  characters. You’ve used
+            span.word-count(style="color: rgb(159, 187, 88);") 0
+        .form-group
+          label Meta description
+          textarea.post-setting-meta-description.gh-input(v-model="form.meta_description")
+          p Recomended : <b>156</b>  characters. You’ve used
+            span.word-count(style="color: rgb(159, 187, 88);")
+        .form-group.for-checkbox
+          label.checkbox
+            input.gh-input.post-setting-static-page(v-model="form.is_page" type="checkbox")
+            span.input-toggle-component
+            p Turn this post into a static page
+          label.checkbox
+            input.gh-input.post-setting-featured(type="checkbox" v-model="form.is_featured")
+            span.input-toggle-component
+            p Feature this post

@@ -1,0 +1,229 @@
+<template>
+	<main class="gh-main">
+		<section class="gh-view">
+			<header class="view-header">
+				<h2 class="view-title gh-editor-title">
+					<input id="entry-title" type="text" autofocus="" v-model="form.title" placeholder="Your Post Title" tabindex="1" shouldfocus="true" focus-out="updateTitle" class="gh-input">
+				</h2>
+				<section class="view-actions">
+					<button class="post-settings" @click="settings"><i class="icon-settings"></i> </button>
+					<section class="splitbtn unsaved">
+						<button type="button" class="btn btn-sm btn-blue" @click="save('draft')">Save Draft</button>
+            <dropdown>
+              <ul class="dropdown-menu dropdown-triangle-bottom-right">
+                <li class="post-save-publish" @click="save('publish')"><a href="#">Publish Now</a></li>
+                <li class="post-save-draft" @click="save('draft')"><a href="#">Save Draft</a></li>
+                <!-- <li class="divider"></li>
+                <li class="post-save-delete"><a href="">Delete post</a></li> -->
+              </ul>
+            </dropdown>
+					</section>
+				</section>
+			</header>
+			<section class="view-container view-editor">
+				<section class="entry-markdown js-entry-markdown active">
+					<header class="floatingheader">
+		        <span class="desktop-tabs">
+              <a class="markdown-help-label" href="" title="Markdown Help" data-ember-action="2825">Markdown</a>
+            </span>
+		        <span class="mobile-tabs">
+		            <a href="#" class="active" data-ember-action="2826">Markdown</a>
+		            <a href="#" class="" data-ember-action="2827">Preview</a>
+		        </span>
+		        <a class="markdown-help-icon" href="" title="Markdown Help" data-ember-action="2828">
+              <i class="icon-markdown"></i>
+            </a>
+			    </header>
+			    <section class="entry-markdown-content">
+			    	<textarea id="ember3030" spellcheck="true" tabindex="1" v-model="form.markdown" class="ember-text-area markdown-editor js-markdown-editor"></textarea>
+			    </section>
+				</section>
+				<section class="entry-preview js-entry-preview">
+					<header class="floatingheader">
+				        <span class="desktop-tabs"><a target="_blank" href="http://localhost:2368/p/0c642e23-9867-4e10-9f0a-0e985a855bc7/">Preview</a></span>
+				        <span class="mobile-tabs">
+				            <a href="#" class="active" data-ember-action="2830">Markdown</a>
+				            <a href="#" class="" data-ember-action="2831">Preview</a>
+				        </span>
+				        <span class="entry-word-count">0 words</span>
+				    </header>
+				    <section class="entry-preview-content js-entry-preview-content">
+				    	<div class="rendered-markdown js-rendered-markdown">
+					    	<div v-html="form.markdown | marked"></div>
+				    	</div>
+				    </section>
+				</section>
+			</section>
+		</section>
+	</main>
+	<aside class="gh-notifications"></aside>
+	<div class="content-cover"></div>
+	<div id="entry-controls" class="settings-menu-container">
+		<div id="entry-controls">
+			<div class="settings-menu-pane-in settings-menu settings-menu-pane">
+				<div class="settings-menu-header">
+					<h4>Post Settings</h4>
+					<button class="close icon-x settings-menu-header-action" @click="settings"><span class="hidden">Close</span></button>
+				</div>
+				<div class="settings-menu-content">
+          <form>
+            <div class="form-group">
+              <label>Post URL</label>
+              <a href="" class="post-view-link">Preview <i class="icon-external"></i></a>
+              <span class="input-icon icon-link">
+                <input type="text" name="" v-model="form.slug" class="post-setting-slug gh-input">
+              </span>
+              <p class="ghost-url-preview description">localhost:2368/{{ form.slug }}</p>
+            </div>
+            <div class="form-group">
+              <label>Publish Date</label>
+              <span class="input-icon icon-calendar">
+                <input type="text" name="" v-model="form.published_at" class="post-setting-date gh-input">
+              </span>
+            </div>
+            <div class="form-group">
+              <label>Tags</label>
+              <select class="ember-selectize selectized">
+                <option></option>
+              </select>
+            </div>
+            <div class="form-group for-select">
+              <label>Author</label>
+              <span class="input-icon icon-user">
+                <span class="gh-select">
+                  <div>
+                    <select v-model="form.author_id">
+                      <option value="1">Purwandi</option>
+                    </select>
+                  </div>
+                </span>
+              </span>
+            </div>
+            <div class="form-group">
+              <label>Meta title</label>
+              <input type="text" name="" v-model="form.meta_title" class="gh-input">
+              <p>Recomended : <b>70</b>  characters. You’ve used <span class="word-count" style="color: rgb(159, 187, 88);">0</span></p>
+            </div>
+            <div class="form-group">
+              <label>Meta description</label>
+              <textarea v-model="form.meta_description" class="post-setting-meta-description gh-input"></textarea>
+              <p>Recomended : <b>156</b>  characters. You’ve used <span class="word-count" style="color: rgb(159, 187, 88);">0</span></p>
+            </div>
+            <div class="form-group for-checkbox">
+              <label class="checkbox" for="static-page" data-ember-action="1745">
+                  <input id="static-page" v-model="form.is_page" type="checkbox" name="static-page" paramchecked="false" class="gh-input post-setting-static-page">
+                  <span class="input-toggle-component"></span>
+                  <p>Turn this post into a static page</p>
+              </label>
+
+              <label class="checkbox" for="is_featured" data-ember-action="1756">
+                  <input id="is_featured" type="checkbox" v-model="is_featured" name="featured" paramchecked="false" class="gh-input post-setting-featured">
+                  <span class="input-toggle-component"></span>
+                  <p>Feature this post</p>
+              </label>
+          </div>
+          </form>
+        </div>
+			</div>
+      <div class="settings-menu-pane-out-right settings-menu settings-menu-pane"></div>
+		</div>
+	</div>
+</template>
+
+<script>
+
+const Http = require('../services/http')
+const Dropdown = require('../components/Dropdown.vue')
+const marked = require ('marked')
+const slugify = require('slugify')
+
+let model = {
+  id: '',
+  title: '',
+  slug: '',
+  markdown: '',
+  html: '',
+  is_featured: '',
+  is_page: '',
+  status: '',
+  visibility: '',
+  meta_title: '',
+  meta_description: '',
+  author_id: '',
+  published_at: ''
+}
+
+export default {
+  props: {
+    form: {
+      type: Object,
+      default: function() {
+        Object.assign({}, model)
+      }
+    }
+  },
+
+	data () {
+		return {
+      control: false,
+      errors: Object.assign({}, model)
+		}
+	},
+
+	ready () {
+		$('body').addClass('editor')
+    this.init()
+	},
+
+  components: {
+    'dropdown': Dropdown
+  },
+
+	methods: {
+    init () {
+      this.form.is_featured = false
+      this.form.is_page = false
+      this.form.status = 'draft'
+      this.form.visibility = 'public'
+    },
+		settings () {
+      this.control === false ? this.control = true : this.control = false
+      if (this.control === true) {
+        $('body').addClass('settings-menu-expanded')
+        $('.gh-viewport').addClass('settings-menu-expanded')
+      } else {
+        $('body').removeClass('settings-menu-expanded')
+        $('.gh-viewport').removeClass('settings-menu-expanded')
+      }
+		},
+    save (status) {
+      let vm = this
+      vm.form.status = status
+
+      if (vm.form.id) {
+        Http.put('posts/' + vm.form.id, vm.form).then(succCb => {
+
+        }, errCb => {
+
+        })
+      } else {
+        Http.post('posts', vm.form).then(succCb => {
+
+        }, errCb => {
+
+        })
+      }
+    }
+	},
+
+  watch: {
+    'form.title' (val, oldVal) {
+      this.form.slug = slugify(val.toLowerCase())
+    }
+  },
+
+  filters: {
+    marked: marked
+  }
+}
+</script>
