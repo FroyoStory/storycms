@@ -19,7 +19,7 @@ class PostController extends Controller
     {
         $post = Post::paginate();
 
-        return Responder::success($post);
+        return $post ? Responder::success($post) : Responder::error();
     }
 
     public function store(PostRequest $request)
@@ -65,5 +65,12 @@ class PostController extends Controller
 
         return $post->save() ? Responder::success($post) : Responder::error();
 
+    }
+
+    public function destroy($id)
+    {
+        $post = Post::findOrFail($id);
+
+        return $post->delete() ? Responder::success('OK') : Responder::error();
     }
 }
