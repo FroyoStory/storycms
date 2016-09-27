@@ -35,4 +35,6 @@ Route::group(['prefix' => 'api'], function () {
     Route::post('posts', 'Api\PostController@store');
     Route::get('posts/{id}', 'Api\PostController@show');
     Route::put('posts/{id}', 'Api\PostController@update');
+
+    Route::get('teams', 'Api\TeamController@index');
 });
