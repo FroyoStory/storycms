@@ -1,5 +1,7 @@
 # Froyo Story CMS
 
+[![Build Status](https://travis-ci.org/FroyoStory/storycms.svg?branch=master)](https://travis-ci.org/FroyoStory/storycms) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
+
 ## Requirement
 
 1. [Composer](https://getcomposer.org/doc/00-intro.md)
@@ -25,6 +27,10 @@ This project include ```.editorconfig```. Please install editorconfig plugins fi
 
 If you are working with frontend stuff this project also include assets builder. Just run ```npm run dev``` for development
 and for production just run ```npm run build```
+
+## Backend Development
+
+PHP has built in web server, so instead off using apache/nginx for development you can simply command ```php artisan serve``` and then visit ```http://localhost:8000/```
 
 ## License 
 
