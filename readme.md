@@ -14,7 +14,9 @@
 1. Clone this repository ```git clone git@github.com:FroyoStory/storycms.git storycms```
 2. Enter working directory project ```cd storycms```
 3. Run project depencies using command ```composer install``` and ```npm install```
-4. Run database migration using command ```php artisan migrate```
+4. Copy example environment config ```cp .env.example .env``` and modify the database connection settings
+5. Generate project hash key ```php artisan key:generate```
+6. Run database migration using command ```php artisan migrate```
 
 ## Sublime Text Notes
 
