@@ -31,8 +31,10 @@ Route::group(['prefix' => 'backend'], function () {
 });
 
 Route::group(['prefix' => 'api'], function () {
-    Route::get('posts', 'Api\PostController@index');
-    Route::post('posts', 'Api\PostController@store');
-    Route::get('posts/{id}', 'Api\PostController@show');
-    Route::put('posts/{id}', 'Api\PostController@update');
+    Route::resource('posts', 'Api\PostController', ['except' => ['edit', 'create']]);
+    Route::resource('categories', 'Api\CategoryController', ['except' => ['edit', 'create']]);
+    // Route::get('posts', 'Api\PostController@index');
+    // Route::post('posts', 'Api\PostController@store');
+    // Route::get('posts/{id}', 'Api\PostController@show');
+    // Route::put('posts/{id}', 'Api\PostController@update');
 });
