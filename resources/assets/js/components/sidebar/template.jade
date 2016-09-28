@@ -4,18 +4,14 @@ nav.gh-nav
     section.gh-nav-search
       .gh-nav-search-input
     ul.gh-nav-list.gh-nav-main
-      li
-        a(v-link="{ name: 'PostCreate' }")
-          i.icon-pen
-          |New Post
-      li
-        a(v-link="{ name: 'PostList' }")
-          i.icon-content
-          |Content
-      li
-        a
-          i.icon-team
-          |Team
+      li <a v-link="{ name: 'PostCreate' }"><i class="icon-pen"></i> New Post</a>
+      li <a v-link="{ name: 'PostList' }"><i class="icon-content"></i> Content</a>
+      li <a href=""><i class="icon-team"></i> Team</a>
+    ul.gh-nav-list.gh-nav-settings
+      li.gh-nav-list-h Settings
+      li <a v-link="{ name: 'SettingGeneral' }"><i class="icon-settings"></i> General</a>
+      li <a href=""><i class="icon-compass"></i> Navigation</a>
+      li <a href=""><i class="icon-box"></i> Apps</a>
 
   footer.gh-nav-footer
     .gh-menu-toggle
