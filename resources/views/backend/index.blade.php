@@ -9,6 +9,10 @@
   </head>
   <body>
     <app></app>
+    <script>
+      var CONFIG = {};
+      CONFIG.USER = {!! Auth::user() !!}
+    </script>
     <script src="/js/build.js"></script>
   </body>
 </html>

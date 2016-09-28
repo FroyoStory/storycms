@@ -35,6 +35,7 @@ Route::group(['prefix' => 'api'], function () {
     Route::resource('categories', 'Api\CategoryController', ['except' => ['edit', 'create']]);
 
     Route::post('upload', 'Api\UploadController@store');
+    Route::post('settings', 'Api\SettingController@store');
 
     Route::get('teams', 'Api\TeamController@index');
 });
