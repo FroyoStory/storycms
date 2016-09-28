@@ -1,10 +1,21 @@
 <?php
 
+use App\Category;
+
 class PosTest extends TestCase
 {
+
+    public function createDummy()
+    {
+        Category::create(['name' => 'Hello', 'slug' => 'hello']);
+        Category::create(['name' => 'Hello', 'slug' => 'hello']);
+    }
+
     public function testLists()
     {
         $this->admin();
+
+        $this->createDummy();
 
         $this->json('POST', '/api/posts', [
             'title'            => 'Hello world',
@@ -14,6 +25,7 @@ class PosTest extends TestCase
             'meta_description' => 'Hello mas brooo',
             'is_featured'      => true,
             'is_page'          => true,
+            'category_id'      => 1,
         ]);
 
         $this->assertEquals(200, $this->response->status());
@@ -35,6 +47,7 @@ class PosTest extends TestCase
                     'meta_description' => 'Hello mas brooo',
                     'status'           => 'draft',
                     'visibility'       => 'public',
+                    'category_id'      => 1,
                 ],
             ],
         ]);
@@ -43,6 +56,7 @@ class PosTest extends TestCase
     public function testCreatePost()
     {
         $this->admin();
+        $this->createDummy();
 
         $this->json('POST', '/api/posts', [
             'title'    => '',
@@ -66,6 +80,7 @@ class PosTest extends TestCase
             'meta_description' => 'Hello mas brooo',
             'is_featured'      => true,
             'is_page'          => true,
+            'category_id'      => 2,
         ])->seeJson([
             'data' => [
                 'id'               => 1,
@@ -80,6 +95,7 @@ class PosTest extends TestCase
                 'meta_description' => 'Hello mas brooo',
                 'status'           => 'draft',
                 'visibility'       => 'public',
+                'category_id'      => 2,
             ],
             'meta' => [
                 'code'    => 200,
@@ -88,9 +104,10 @@ class PosTest extends TestCase
         ]);
 
         $this->json('POST', '/api/posts', [
-            'title'    => 'Hello world',
-            'markdown' => '# Hello',
-            'status'   => 'publish',
+            'title'       => 'Hello world',
+            'markdown'    => '# Hello',
+            'status'      => 'publish',
+            'category_id' => 1,
         ])->seeJson([
             'data' => [
                 'id'               => 2,
@@ -105,6 +122,7 @@ class PosTest extends TestCase
                 'meta_description' => null,
                 'status'           => 'publish',
                 'visibility'       => 'public',
+                'category_id'      => 1,
             ],
             'meta' => [
                 'code'    => 200,
@@ -116,6 +134,7 @@ class PosTest extends TestCase
     public function testShow()
     {
         $this->admin();
+        $this->createDummy();
 
         $this->json('POST', '/api/posts', [
             'title'            => 'Hello world',
@@ -125,6 +144,7 @@ class PosTest extends TestCase
             'meta_description' => 'Hello mas brooo',
             'is_featured'      => true,
             'is_page'          => true,
+            'category_id'      => 1,
         ]);
 
         $this->assertEquals(200, $this->response->status());
@@ -138,6 +158,7 @@ class PosTest extends TestCase
             'meta_description' => 'Hello mas brooo',
             'is_featured'      => true,
             'is_page'          => true,
+            'category_id'      => 1,
         ])->seeJson([
             'data' => [
                 'id'               => 1,
@@ -152,6 +173,7 @@ class PosTest extends TestCase
                 'meta_description' => 'Hello mas brooo',
                 'status'           => 'draft',
                 'visibility'       => 'public',
+                'category_id'      => 1,
             ],
             'meta' => [
                 'code'    => 200,

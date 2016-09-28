@@ -22,8 +22,9 @@ class PostRequest extends Request
     public function rules()
     {
         return [
-            'title'    => 'required',
-            'markdown' => 'required',
+            'title'       => 'required',
+            'markdown'    => 'required',
+            'category_id' => 'exists:categories,id',
         ];
     }
 }

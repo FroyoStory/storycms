@@ -36,6 +36,7 @@ class PostController extends Controller
             'meta_title'       => $request->input('meta_title'),
             'meta_description' => $request->input('meta_description'),
             'author_id'        => $request->user()->id,
+            'category_id'      => $request->input('category_id'),
         ]);
 
         return $post ? Responder::success($post) : Responder::error();
@@ -62,6 +63,7 @@ class PostController extends Controller
         $post->visibility       = $request->input('visibility') ? 'public' : 'private';
         $post->meta_title       = $request->input('meta_title');
         $post->meta_description = $request->input('meta_description');
+        $post->category_id      = $request->input('category_id');
 
         return $post->save() ? Responder::success($post) : Responder::error();
 
