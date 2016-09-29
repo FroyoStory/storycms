@@ -1,28 +1,39 @@
-main.gh-main
-  section.gh-view
-    header.view-header
-      h2.view-title
-        span Posts
-      section.view-actions
-        a.btn.btn-green(v-link="{ name: 'PostCreate' }") New Posts
-    section.view-container
-      section.content-list
-        section.content-list-content
-          ol.posts-list
-            li(v-for="data in posts", :class="post && post.id === data.id ? 'active': ''")
-              a.permalink(href="" @click.prevent="show($index)")
-                h3.entry-title {{ data.title }}
-                section.entry-meta
-                  //- span.avatar
-                  //- span.author {{ post.author_id }}
-                  span.status
-                    span.draft {{ data.status }}
-      section.content-preview
-        section.post-controls(v-if="post")
-          a.btn.btn-minor.post-edit(v-link="{ name: 'PostEdit', params: { id: post.id }}")
-            i.icon-edit
-        section.content-preview-content
-          .wrapper
-            div(v-if="post" v-html="post.markdown | marked")
+section.content-header
+  h1 Content
+    small Posts list
+  ol.breadcrumb
+    li
+      a(href="#")
+        i.fa.fa-dashboard
+        span Dashboard
+    li.active Content
+
+section.content
+  main.gh-main
+    section.gh-view
+      header.view-header
+        h2.view-title
+          span Posts
+        section.view-actions
+          a.btn.btn-green(v-link="{ name: 'PostCreate' }") New Posts
+      section.view-container
+        section.content-list
+          section.content-list-content
+            ol.posts-list
+              li(v-for="data in posts", :class="post && post.id === data.id ? 'active': ''")
+                a.permalink(href="" @click.prevent="show($index)")
+                  h3.entry-title {{ data.title }}
+                  section.entry-meta
+                    //- span.avatar
+                    //- span.author {{ post.author_id }}
+                    span.status
+                      span.draft {{ data.status }}
+        section.content-preview
+          section.post-controls(v-if="post")
+            a.btn.btn-minor.post-edit(v-link="{ name: 'PostEdit', params: { id: post.id }}")
+              i.icon-edit
+          section.content-preview-content
+            .wrapper
+              div(v-if="post" v-html="post.markdown | marked")
 
 

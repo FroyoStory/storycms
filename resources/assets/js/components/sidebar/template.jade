@@ -1,44 +1,63 @@
-nav.gh-nav
-  header.gh-nav-menu
-    .gh-nav-menu-icon(style="background-image: url(/images/froyo-logo.png) ")
-    .gh-nav-menu-details
-      .gh-nav-menu-details-blog StoryCMS
-      .gh-nav-menu-details-user Purwandi
-    i.icon-arrow
-  .dropdown.closed.fade-out
-    ul.dropdown-menu.dropdown-triangle-top(style="right: -20px; left: auto")
-      li <a href=""><i class="icon-shop"></i> About </a>
-      li.divider
-      li <a href=""><i class="icon-user"></i> About </a>
-      li <a href=""><i class="icon-signout"></i> About </a>
+aside.main-sidebar
+  section.sidebar
+    .user-panel
+      .pull-left.image
+        img(
+          src=""
+          alt=""
+        )
+      .pull-left.info
+        p Purwandi
+        a(href="#")
+          i.fa.fa-circle.text-success
+          span Online
 
-  section.gh-nav-body
-    section.gh-nav-search
-      .gh-nav-search-input
-        .ember-power-select.ember-basic-dropdown.ember-basic-dropdown--in-place
-          .ember-basic-dropdown-trigger.ember-power-select-trigger
-            .ember-view
-              .ember-power-select-search
-                input(type="search" placeholder="Search")
-                button.gh-nav-search-button <i class="icon-search"></i>
-                  span.sr-only Search
+    form.sidebar-form(
+      action="#"
+      method="get"
+    )
+      .input-group
+        input.form-control(
+          type="text"
+          name="q"
+          placeholder="Search..."
+        )
+        span.input-group-btn
+          button.btn.btn-flat(
+            type="submit"
+            name="search"
+            id="search-btn"
+          )
+            i.fa.fa-search
 
-    ul.gh-nav-list.gh-nav-main
-      li <a v-link="{ name: 'PostCreate' }"><i class="icon-pen"></i> New Post</a>
-      li <a v-link="{ name: 'PostList' }"><i class="icon-content"></i> Content</a>
-      li <a href=""><i class="icon-team"></i> Team</a>
-    ul.gh-nav-list.gh-nav-settings
-      li.gh-nav-list-h Settings
-      li <a v-link="{ name: 'SettingGeneral' }"><i class="icon-settings"></i> General</a>
-      li <a href=""><i class="icon-compass"></i> Navigation</a>
-      li <a href=""><i class="icon-box"></i> Apps</a>
-
-  footer.gh-nav-footer
-    .gh-menu-toggle
-      i.icon-minimise
-    a.gh-nav-footer-sitelink View blog
-    .gh-help-menu
-      .closed
-        .gh-help-button
-          i.icon-question
-            span.hidden Help
+    ul.sidebar-menu
+      li.active.treeview
+        a(href="#")
+          i.fa.fa-dashboard
+          span Dashboard
+      li.header MAIN NAVIGATION
+      li.treeview
+        a(v-link="{ name: 'PostCreate' }")
+          i.fa.fa-pencil
+          span New Post
+      li.treeview
+        a(v-link="{ name: 'PostList' }")
+          i.fa.fa-file-text-o
+          span Content
+      li.treeview
+        a(href="#")
+          i.fa.fa-users
+          span Team
+      li.header SETTINGS
+      li.treeview
+        a(v-link="{ name: 'SettingGeneral' }")
+          i.fa.fa-cog
+          span General
+      li.treeview
+        a(href="#")
+          i.fa.fa-compass
+          span Navigation
+      li.treeview
+        a(href="#")
+          i.fa.fa-cube
+          span Apps
