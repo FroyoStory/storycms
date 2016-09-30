@@ -52,7 +52,7 @@ class RegisterController extends Controller
             return view('auth.register');
         }
 
-        return \App::abort(404);
+        return view('errors.404');
     }
 
     /**
@@ -71,10 +71,16 @@ class RegisterController extends Controller
 
         event(new Registered($user = $this->create($request->all())));
 
-        $this->guard()->login($user);
+        // Disable force login after user registered
+        //$this->guard()->login($user);
 
-        return redirect($this->redirectPath());
+        return redirect('/register-success');
 
+    }
+
+    public function success()
+    {
+        return view('auth.register-success');
     }
 
     /**

@@ -24,11 +24,15 @@
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files" : [
+            "helpers/email.php"
+        ]
     },
     "autoload-dev": {
         "classmap": [
-            "tests/TestCase.php"
+            "tests/TestCase.php",
+            "tests/MailTracking.php"
         ]
     },
     "scripts": {
