@@ -23,6 +23,7 @@ Route::get('register', 'Auth\RegisterController@showRegistrationForm');
 Route::get('register-success', 'Auth\RegisterController@success');
 Route::post('register', 'Auth\RegisterController@register');
 Route::get('auth/confirm/{token}', 'Auth\ConfirmController@store');
+Route::post('auth/resend', 'Auth\ConfirmController@resend');
 
 Route::group(['prefix' => 'backend'], function () {
     Route::get('posts', 'Backend\PostController@index');

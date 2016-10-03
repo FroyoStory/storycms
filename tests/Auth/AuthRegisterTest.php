@@ -23,7 +23,7 @@ class AuthRegisterTest extends TestCase
         $this->assertEquals(404, $this->response->status());
     }
 
-    public function testRegisterInvalidField()
+    public function testInvalidPassword()
     {
         $this->visit('register');
         $this->see('Register');
@@ -33,7 +33,11 @@ class AuthRegisterTest extends TestCase
         $this->type('', 'password_confirmation');
         $this->press('Register');
         $this->see('The password confirmation does not match.');
+    }
 
+    public function testRegisterInvalidEmailAndEmail()
+    {
+        $this->visit('register');
         $this->type('', 'name');
         $this->type('', 'email');
         $this->type('password', 'password');
@@ -41,7 +45,11 @@ class AuthRegisterTest extends TestCase
         $this->press('Register');
         $this->see('The name field is required.');
         $this->see('The email field is required.');
+    }
 
+    public function testInvalidEmail()
+    {
+        $this->visit('register');
         $this->type('Foobar', 'name');
         $this->type('foo..xom', 'email');
         $this->type('password', 'password');
@@ -91,7 +99,6 @@ class AuthRegisterTest extends TestCase
         Auth::logout();
         $this->visit('/auth/confirm/' . $user->confirm_token);
         $this->see('Be right back');
-
     }
 
 }

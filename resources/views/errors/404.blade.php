@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	The page you are looking is not found.
-</body>
-</html>
+@extends('layouts.blank')
+
+@section('content')
+  The page you are looking is not found.
+@stop

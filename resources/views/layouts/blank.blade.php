@@ -13,6 +13,7 @@
 				<main class="ember-view gh-main">
 
           <!-- Partials Layout -->
+          @include('layouts.partials.message')
           @include('layouts.partials.errors')
           <!-- End partials Layout -->
 
