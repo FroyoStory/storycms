@@ -20,7 +20,9 @@ Route::get('backend', 'Backend\HomeController@index');
 Route::get('signin', 'Auth\LoginController@showLoginForm');
 Route::post('signin', 'Auth\LoginController@login');
 Route::get('register', 'Auth\RegisterController@showRegistrationForm');
+Route::get('register-success', 'Auth\RegisterController@success');
 Route::post('register', 'Auth\RegisterController@register');
+Route::get('auth/confirm/{token}', 'Auth\ConfirmController@store');
 
 Route::group(['prefix' => 'backend'], function () {
     Route::get('posts', 'Backend\PostController@index');

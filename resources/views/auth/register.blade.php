@@ -1,5 +1,7 @@
 @extends('layouts.blank')
 
+@section('title', 'Register')
+
 @section('content')
 	<div class="gh-flow">
 		<div class="gh-flow-content-wrap">
