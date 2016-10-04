@@ -36,6 +36,10 @@ Route::group(['prefix' => 'api'], function () {
 
     Route::post('upload', 'Api\UploadController@store');
     Route::post('settings', 'Api\SettingController@store');
-
+    //api only get,put,post,delete
     Route::get('teams', 'Api\TeamController@index');
+    Route::post('teams', 'Api\TeamController@store');
+    Route::put('teams/{id}', 'Api\TeamController@update');
+    Route::get('teams/{id}', 'Api\TeamController@show');
+    Route::delete('teams/{id}', 'Api\TeamController@destroy');
 });
