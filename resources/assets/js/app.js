@@ -1,7 +1,14 @@
-import { Vue, VueRouter } from './bootstrap'
+import { Vue, VueRouter, $ } from './bootstrap'
 import app from './pages/app'
 import components from './components'
 import router from './router'
+
+// Hack for jquery plugins
+// ----------------------------------------
+window.$ = $
+window.jQuery = $
+require('bootstrap-sass')
+require('admin-lte')
 
 Vue.use(VueRouter)
 Vue.use(components)
