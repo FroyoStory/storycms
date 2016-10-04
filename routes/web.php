@@ -11,12 +11,17 @@
 |
  */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//--------------------------------------------------------------------------
+// PUBLIC ROUTES
+//--------------------------------------------------------------------------
+Route::get('/', 'Front\HomeController@index');
+Route::get('blog', 'Front\PostController@index');
+Route::get('blog/{slug}', 'Front\PostController@show');
+//--------------------------------------------------------------------------
 
-Route::get('backend', 'Backend\HomeController@index');
-
+//--------------------------------------------------------------------------
+// AUTH ROUTES
+//--------------------------------------------------------------------------
 Route::get('signin', 'Auth\LoginController@showLoginForm');
 Route::post('signin', 'Auth\LoginController@login');
 Route::get('register', 'Auth\RegisterController@showRegistrationForm');
@@ -24,15 +29,17 @@ Route::get('register-success', 'Auth\RegisterController@success');
 Route::post('register', 'Auth\RegisterController@register');
 Route::get('auth/confirm/{token}', 'Auth\ConfirmController@store');
 Route::post('auth/resend', 'Auth\ConfirmController@resend');
+//--------------------------------------------------------------------------
 
-Route::group(['prefix' => 'backend'], function () {
-    Route::get('posts', 'Backend\PostController@index');
-    Route::get('posts/create', 'Backend\PostController@create');
-    Route::get('posts/{id}/edit', 'Backend\PostController@edit');
-    Route::get('teams', 'Backend\TeamController@index');
-    Route::get('settings/general', 'Backend\Settings\GeneralController@index');
-});
+//--------------------------------------------------------------------------
+// BACKEND LAYOUT ROUTES
+//--------------------------------------------------------------------------
+Route::get('backend', 'Backend\HomeController@index');
+//--------------------------------------------------------------------------
 
+//--------------------------------------------------------------------------
+// API ROUTES
+//--------------------------------------------------------------------------
 Route::group(['prefix' => 'api'], function () {
     Route::resource('posts', 'Api\PostController', ['except' => ['edit', 'create']]);
     Route::resource('categories', 'Api\CategoryController', ['except' => ['edit', 'create']]);
@@ -42,3 +49,4 @@ Route::group(['prefix' => 'api'], function () {
 
     Route::get('teams', 'Api\TeamController@index');
 });
+//--------------------------------------------------------------------------
