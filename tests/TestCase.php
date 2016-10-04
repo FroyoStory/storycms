@@ -6,6 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
     use DatabaseMigrations;
+    use MailTracking;
 
     /**
      * The base URL to use while testing the application.

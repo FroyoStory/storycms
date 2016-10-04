@@ -3,7 +3,6 @@
 namespace App\Repositories;
 
 use App\Setting;
-use InvalidArgumentException;
 
 class SettingRepository
 {
@@ -44,6 +43,9 @@ class SettingRepository
             return $item;
         }
 
-        throw new InvalidArgumentException("The key " . $key . " is not exist", 1);
+        return (object) [
+            'key'   => $key,
+            'value' => null,
+        ];
     }
 }
