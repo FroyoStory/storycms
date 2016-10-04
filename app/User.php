@@ -4,8 +4,9 @@ namespace App;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Purwandi\Responder\Transformable;
 
-class User extends Authenticatable
+class User extends Authenticatable implements Transformable
 {
     use Notifiable;
 
@@ -26,4 +27,11 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token', 'confirm_token',
     ];
+
+    public static function transformer()
+    {
+        return \App\Transformers\TeamTransformer::class;
+    }
 }
+
+
