@@ -25,29 +25,8 @@ section.content
                   a(href="" @click.prevent="save('publish')") Publish Now
                 li.post-save-publish
                   a(href="" @click.prevent="save('draft')") Save Draf
-      section.view-container.view-editor
-        section.entry-markdown.active
-          header.floatingheader
-            span.desktop-tabs
-              a.markdown-help-label(title="Markdown Help") Markdown
-            span.mobile-tabs
-              a.active Markdown
-              a Preview
-            a.markdown-help-icon(title="Markdown Help")
-              i.icon-markdown
-          section.entry-markdown-content
-            textarea.ember-text-area.markdown-editor.simplemde(spellcheck="true" tabindex="1" v-model="form.markdown")
-        section.entry-preview
-          header.floatingheader
-            span.desktop-tabs
-              a Preview
-            span.mobile-tabs
-              a.active Markdown
-              a Preview
-            span.entry-word-count {{ form.markdown.length }} words
-          section.entry-preview-content
-            .rendered-markdown
-            div(v-html="form.markdown | marked")
+      section.view-container.editor-container
+        editor
 
   .settings-menu-container
     .settings-menu-pane-in.settings-menu.settings-menu-pane

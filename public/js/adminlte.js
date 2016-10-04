@@ -237,8 +237,7 @@ $(function () {
 
   //
   //Simplemde
-  if ( $( '.simplemde' ).length > 0 )
-  {
+  if ( $( '.__simplemde' ).length > 0 ) {
     var simplemde = new SimpleMDE({ element: document.querySelector( '.simplemde' ) });
   }
 }(jQuery));

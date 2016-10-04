@@ -1,0 +1,22 @@
+.view-editor
+  section.entry-markdown.active
+    header.floatingheader
+      span.desktop-tabs
+        a.markdown-help-label(title="Markdown Help") Markdown
+      span.mobile-tabs
+        a.active Markdown
+        a Preview
+      a.markdown-help-icon(title="Markdown Help")
+        i.icon-markdown
+    section.entry-markdown-content
+      textarea.ember-text-area.markdown-editor.simplemde(spellcheck="true" tabindex="1" @input="updateEditor")
+  section.entry-preview
+    header.floatingheader
+      span.desktop-tabs
+        a Preview
+      span.mobile-tabs
+        a.active Markdown
+        a Preview
+    section.entry-preview-content
+      .rendered-markdown
+        div(v-html="compiledMarkdown")

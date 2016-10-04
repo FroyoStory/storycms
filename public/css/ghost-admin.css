@@ -6015,7 +6015,7 @@ a.user-list-item {
 /* Profile picture
 /* ---------------------------------------------------------- */
 
-.user-image {
+._user-image {
   position: absolute;
   z-index: 2;
   display: block;
@@ -6032,14 +6032,14 @@ a.user-list-item {
 }
 
 @media (min-width: 651px) {
-  .user-image {
+  ._user-image {
     top: -19px;
     left: -98px;
   }
 }
 
 @media (max-width: 650px) {
-  .user-image {
+  ._user-image {
     top: -135px;
     left: 50%;
     margin-right: 0;
@@ -6047,7 +6047,7 @@ a.user-list-item {
   }
 }
 
-.user-image .img {
+._user-image .img {
   display: block;
   width: 120px;
   height: 120px;
@@ -6056,7 +6056,7 @@ a.user-list-item {
   border-radius: 100%;
 }
 
-.user-image:hover .edit-user-image {
+._user-image:hover .edit-user-image {
   opacity: 1;
 }
 
