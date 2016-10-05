@@ -1,0 +1,1603 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'simplemde',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /Applications/MAMP/htdocs/storycms/package.json
+5 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/admin-lte/package.json
+6 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/babel-cli/package.json
+7 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/babel-core/package.json
+8 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/babel-loader/package.json
+9 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/babel-plugin-transform-runtime/package.json
+10 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/babel-preset-es2015/package.json
+11 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/babel-preset-stage-2/package.json
+12 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/babel-runtime/package.json
+13 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/bootstrap-sass/package.json
+14 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/buble/package.json
+15 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/buble-loader/package.json
+16 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/css-loader/package.json
+17 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/file-loader/package.json
+18 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/gulp/package.json
+19 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/jade/package.json
+20 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/jade-html-loader/package.json
+21 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/jade-loader/package.json
+22 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/jquery/package.json
+23 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/laravel-elixir/package.json
+24 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/laravel-elixir-eslint/package.json
+25 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/laravel-elixir-remove/package.json
+26 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/laravel-elixir-webpack-official/package.json
+27 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/less/package.json
+28 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/less-loader/package.json
+29 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/lodash/package.json
+30 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/marked/package.json
+31 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/node-sass/package.json
+32 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/npm-run-all/package.json
+33 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/sass-loader/package.json
+34 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/package.json
+35 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/slugify/package.json
+36 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/style-loader/package.json
+37 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/url-loader/package.json
+38 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/vue/package.json
+39 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/vue-hot-reload-api/package.json
+40 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/vue-router/package.json
+41 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/vueify/package.json
+42 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/vuex/package.json
+43 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/webpack/package.json
+44 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/storycms/node_modules/webpack-stream/package.json
+45 info package.json jade-html-loader@0.0.3 No license field.
+46 info package.json jade-loader@0.8.0 No license field.
+47 info package.json less-loader@2.2.3 No license field.
+48 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/package.json
+49 verbose install simplemde is installed as 1.11.2
+50 silly cache add args [ 'simplemde@^1.11.2', null ]
+51 verbose cache add spec simplemde@^1.11.2
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: 'simplemde@^1.11.2',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'simplemde',
+52 silly cache add   rawSpec: '^1.11.2',
+52 silly cache add   spec: '>=1.11.2 <2.0.0',
+52 silly cache add   type: 'range' }
+53 silly addNamed simplemde@>=1.11.2 <2.0.0
+54 verbose addNamed ">=1.11.2 <2.0.0" is a valid semver range for simplemde
+55 silly addNameRange { name: 'simplemde', range: '>=1.11.2 <2.0.0', hasData: false }
+56 silly mapToRegistry name simplemde
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'simplemde',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   name: 'simplemde',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/simplemde
+61 verbose addNameRange registry:https://registry.npmjs.org/simplemde not in flight; fetching
+62 verbose request uri https://registry.npmjs.org/simplemde
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 12:01:49 PM
+65 verbose request id 7bffa755a29858b3
+66 verbose etag "4VR2XNV09OUQ119MP7AZ44DP9"
+67 http request GET https://registry.npmjs.org/simplemde
+68 http 200 https://registry.npmjs.org/simplemde
+69 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+69 verbose headers   etag: '"D5YGBXK65N0OW57KBK4O2462Z"',
+69 verbose headers   'content-type': 'application/json',
+69 verbose headers   'content-encoding': 'gzip',
+69 verbose headers   'cache-control': 'max-age=300',
+69 verbose headers   'content-length': '9199',
+69 verbose headers   'accept-ranges': 'bytes',
+69 verbose headers   date: 'Wed, 05 Oct 2016 05:01:50 GMT',
+69 verbose headers   via: '1.1 varnish',
+69 verbose headers   age: '30',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+69 verbose headers   'x-cache': 'HIT',
+69 verbose headers   'x-cache-hits': '1',
+69 verbose headers   'x-timer': 'S1475643710.510588,VS0,VE0',
+69 verbose headers   vary: 'Accept-Encoding' }
+70 silly get cb [ 200,
+70 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+70 silly get     etag: '"D5YGBXK65N0OW57KBK4O2462Z"',
+70 silly get     'content-type': 'application/json',
+70 silly get     'content-encoding': 'gzip',
+70 silly get     'cache-control': 'max-age=300',
+70 silly get     'content-length': '9199',
+70 silly get     'accept-ranges': 'bytes',
+70 silly get     date: 'Wed, 05 Oct 2016 05:01:50 GMT',
+70 silly get     via: '1.1 varnish',
+70 silly get     age: '30',
+70 silly get     connection: 'keep-alive',
+70 silly get     'x-served-by': 'cache-sin6927-SIN',
+70 silly get     'x-cache': 'HIT',
+70 silly get     'x-cache-hits': '1',
+70 silly get     'x-timer': 'S1475643710.510588,VS0,VE0',
+70 silly get     vary: 'Accept-Encoding' } ]
+71 verbose get saving simplemde to /Users/iznyn/.npm/registry.npmjs.org/simplemde/.cache.json
+72 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+73 silly addNameRange number 2 { name: 'simplemde', range: '>=1.11.2 <2.0.0', hasData: true }
+74 silly addNameRange versions [ 'simplemde',
+74 silly addNameRange   [ '1.7.0',
+74 silly addNameRange     '1.7.1',
+74 silly addNameRange     '1.7.2',
+74 silly addNameRange     '1.7.3',
+74 silly addNameRange     '1.7.4',
+74 silly addNameRange     '1.8.0',
+74 silly addNameRange     '1.8.1',
+74 silly addNameRange     '1.9.0',
+74 silly addNameRange     '1.10.0',
+74 silly addNameRange     '1.10.1',
+74 silly addNameRange     '1.11.0',
+74 silly addNameRange     '1.11.1',
+74 silly addNameRange     '1.11.2' ] ]
+75 silly addNamed simplemde@1.11.2
+76 verbose addNamed "1.11.2" is a plain semver version for simplemde
+77 silly cache afterAdd simplemde@1.11.2
+78 verbose afterAdd /Users/iznyn/.npm/simplemde/1.11.2/package/package.json not in flight; writing
+79 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+80 verbose afterAdd /Users/iznyn/.npm/simplemde/1.11.2/package/package.json written
+81 silly install resolved [ { name: 'simplemde',
+81 silly install resolved     version: '1.11.2',
+81 silly install resolved     description: 'A simple, beautiful, and embeddable JavaScript Markdown editor. Features autosaving and spell checking.',
+81 silly install resolved     keywords: [ 'embeddable', 'markdown', 'editor', 'javascript', 'wysiwyg' ],
+81 silly install resolved     homepage: 'https://github.com/NextStepWebs/simplemde-markdown-editor',
+81 silly install resolved     main: './src/js/simplemde.js',
+81 silly install resolved     license: 'MIT',
+81 silly install resolved     company: 'Next Step Webs, Inc.',
+81 silly install resolved     author: { name: 'Wes Cossick', url: 'http://www.WesCossick.com' },
+81 silly install resolved     bugs: { url: 'https://github.com/NextStepWebs/simplemde-markdown-editor/issues' },
+81 silly install resolved     dependencies: { codemirror: '*', 'codemirror-spell-checker': '*', marked: '*' },
+81 silly install resolved     devDependencies:
+81 silly install resolved      { browserify: '*',
+81 silly install resolved        debug: '*',
+81 silly install resolved        eslint: '*',
+81 silly install resolved        gulp: '*',
+81 silly install resolved        'gulp-concat': '*',
+81 silly install resolved        'gulp-debug': '*',
+81 silly install resolved        'gulp-eslint': '*',
+81 silly install resolved        'gulp-header': '*',
+81 silly install resolved        'gulp-jsbeautifier': '*',
+81 silly install resolved        'gulp-clean-css': '*',
+81 silly install resolved        'gulp-rename': '*',
+81 silly install resolved        'gulp-uglify': '*',
+81 silly install resolved        'vinyl-source-stream': '*',
+81 silly install resolved        'vinyl-buffer': '*' },
+81 silly install resolved     repository:
+81 silly install resolved      { type: 'git',
+81 silly install resolved        url: 'git+https://github.com/NextStepWebs/simplemde-markdown-editor.git' },
+81 silly install resolved     gitHead: '0d9f7d90126a2526eb2d393636b46aad8e564ceb',
+81 silly install resolved     _id: 'simplemde@1.11.2',
+81 silly install resolved     scripts: {},
+81 silly install resolved     _shasum: 'a23a35d978d2c40ef07dec008c92f070d8e080e3',
+81 silly install resolved     _from: 'simplemde@>=1.11.2 <2.0.0',
+81 silly install resolved     _npmVersion: '3.3.12',
+81 silly install resolved     _nodeVersion: '5.1.1',
+81 silly install resolved     _npmUser: { name: 'nextstepwebs', email: 'support@nextstepwebs.com' },
+81 silly install resolved     dist:
+81 silly install resolved      { shasum: 'a23a35d978d2c40ef07dec008c92f070d8e080e3',
+81 silly install resolved        tarball: 'https://registry.npmjs.org/simplemde/-/simplemde-1.11.2.tgz' },
+81 silly install resolved     maintainers: [ [Object] ],
+81 silly install resolved     _npmOperationalInternal:
+81 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+81 silly install resolved        tmp: 'tmp/simplemde-1.11.2.tgz_1465927103945_0.3092012421693653' },
+81 silly install resolved     directories: {},
+81 silly install resolved     _resolved: 'https://registry.npmjs.org/simplemde/-/simplemde-1.11.2.tgz',
+81 silly install resolved     readme: 'ERROR: No README data found!' } ]
+82 info install simplemde@1.11.2 into /Applications/MAMP/htdocs/storycms
+83 info installOne simplemde@1.11.2
+84 verbose installOne of simplemde to /Applications/MAMP/htdocs/storycms not in flight; installing
+85 verbose correctMkdir /Users/iznyn/.npm/_locks correctMkdir not in flight; initializing
+86 verbose lock using /Users/iznyn/.npm/_locks/simplemde-136ba58d69695119.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+87 silly install write writing simplemde 1.11.2 to /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+88 verbose unbuild node_modules/simplemde
+89 info preuninstall simplemde@1.11.2
+90 info uninstall simplemde@1.11.2
+91 verbose unbuild rmStuff simplemde@1.11.2 from /Applications/MAMP/htdocs/storycms/node_modules
+92 info postuninstall simplemde@1.11.2
+93 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde is being purged from base /Applications/MAMP/htdocs/storycms
+94 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+95 silly vacuum-fs purging /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+96 silly vacuum-fs quitting because other entries in /Applications/MAMP/htdocs/storycms/node_modules
+97 verbose tar unpack /Users/iznyn/.npm/simplemde/1.11.2/package.tgz
+98 verbose tar unpacking to /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+99 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde is being purged
+100 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+101 silly gunzTarPerm modes [ '755', '644' ]
+102 silly gunzTarPerm extractEntry package.json
+103 silly gunzTarPerm extractEntry .npmignore
+104 silly gunzTarPerm extractEntry README.md
+105 silly gunzTarPerm extractEntry LICENSE
+106 silly gunzTarPerm extractEntry gulpfile.js
+107 silly gunzTarPerm extractEntry bower.json
+108 silly gunzTarPerm extractEntry .eslintrc
+109 silly gunzTarPerm extractEntry debug/simplemde.debug.js
+110 silly gunzTarPerm extractEntry debug/simplemde.js
+111 silly gunzTarPerm extractEntry debug/simplemde.css
+112 silly gunzTarPerm extractEntry dist/simplemde.min.js
+113 silly gunzTarPerm extractEntry dist/simplemde.min.css
+114 silly gunzTarPerm extractEntry .travis.yml
+115 silly gunzTarPerm extractEntry CONTRIBUTING.md
+116 silly gunzTarPerm extractEntry src/css/simplemde.css
+117 silly gunzTarPerm extractEntry src/js/simplemde.js
+118 silly gunzTarPerm extractEntry src/js/codemirror/tablist.js
+119 verbose write writing to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/package.json
+120 info preinstall simplemde@1.11.2
+121 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/package.json
+122 silly prepareForInstallMany adding codemirror@* from simplemde dependencies
+123 silly prepareForInstallMany adding codemirror-spell-checker@* from simplemde dependencies
+124 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/package.json
+125 silly cache add args [ 'codemirror@*', null ]
+126 verbose cache add spec codemirror@*
+127 silly cache add args [ 'codemirror-spell-checker@*', null ]
+128 verbose cache add spec codemirror-spell-checker@*
+129 silly cache add parsed spec Result {
+129 silly cache add   raw: 'codemirror@*',
+129 silly cache add   scope: null,
+129 silly cache add   name: 'codemirror',
+129 silly cache add   rawSpec: '*',
+129 silly cache add   spec: '*',
+129 silly cache add   type: 'range' }
+130 silly addNamed codemirror@*
+131 verbose addNamed "*" is a valid semver range for codemirror
+132 silly addNameRange { name: 'codemirror', range: '*', hasData: false }
+133 silly mapToRegistry name codemirror
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'codemirror',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   name: 'codemirror',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri https://registry.npmjs.org/codemirror
+138 verbose addNameRange registry:https://registry.npmjs.org/codemirror not in flight; fetching
+139 silly cache add parsed spec Result {
+139 silly cache add   raw: 'codemirror-spell-checker@*',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'codemirror-spell-checker',
+139 silly cache add   rawSpec: '*',
+139 silly cache add   spec: '*',
+139 silly cache add   type: 'range' }
+140 silly addNamed codemirror-spell-checker@*
+141 verbose addNamed "*" is a valid semver range for codemirror-spell-checker
+142 silly addNameRange { name: 'codemirror-spell-checker', range: '*', hasData: false }
+143 silly mapToRegistry name codemirror-spell-checker
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: 'codemirror-spell-checker',
+146 silly mapToRegistry   scope: null,
+146 silly mapToRegistry   name: 'codemirror-spell-checker',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag' }
+147 silly mapToRegistry uri https://registry.npmjs.org/codemirror-spell-checker
+148 verbose addNameRange registry:https://registry.npmjs.org/codemirror-spell-checker not in flight; fetching
+149 verbose request uri https://registry.npmjs.org/codemirror-spell-checker
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 12:01:50 PM
+152 verbose etag "DT0W3ZUVLW7KT55ZX9IM3TXLU"
+153 http request GET https://registry.npmjs.org/codemirror-spell-checker
+154 verbose request uri https://registry.npmjs.org/codemirror
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 12:01:50 PM
+157 verbose etag "E3TS52VPR6OLBEY8WDN62KURK"
+158 http request GET https://registry.npmjs.org/codemirror
+159 http 200 https://registry.npmjs.org/codemirror
+160 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+160 verbose headers   etag: '"OYXUWVOPG5Q21PJ38YDY4OOL"',
+160 verbose headers   'content-type': 'application/json',
+160 verbose headers   'content-encoding': 'gzip',
+160 verbose headers   'cache-control': 'max-age=300',
+160 verbose headers   'content-length': '59531',
+160 verbose headers   'accept-ranges': 'bytes',
+160 verbose headers   date: 'Wed, 05 Oct 2016 05:01:51 GMT',
+160 verbose headers   via: '1.1 varnish',
+160 verbose headers   age: '36',
+160 verbose headers   connection: 'keep-alive',
+160 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+160 verbose headers   'x-cache': 'HIT',
+160 verbose headers   'x-cache-hits': '1',
+160 verbose headers   'x-timer': 'S1475643711.509716,VS0,VE0',
+160 verbose headers   vary: 'Accept-Encoding' }
+161 silly get cb [ 200,
+161 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+161 silly get     etag: '"OYXUWVOPG5Q21PJ38YDY4OOL"',
+161 silly get     'content-type': 'application/json',
+161 silly get     'content-encoding': 'gzip',
+161 silly get     'cache-control': 'max-age=300',
+161 silly get     'content-length': '59531',
+161 silly get     'accept-ranges': 'bytes',
+161 silly get     date: 'Wed, 05 Oct 2016 05:01:51 GMT',
+161 silly get     via: '1.1 varnish',
+161 silly get     age: '36',
+161 silly get     connection: 'keep-alive',
+161 silly get     'x-served-by': 'cache-sin6926-SIN',
+161 silly get     'x-cache': 'HIT',
+161 silly get     'x-cache-hits': '1',
+161 silly get     'x-timer': 'S1475643711.509716,VS0,VE0',
+161 silly get     vary: 'Accept-Encoding' } ]
+162 verbose get saving codemirror to /Users/iznyn/.npm/registry.npmjs.org/codemirror/.cache.json
+163 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+164 silly addNameRange number 2 { name: 'codemirror', range: '*', hasData: true }
+165 silly addNameRange versions [ 'codemirror',
+165 silly addNameRange   [ '2.33.0',
+165 silly addNameRange     '3.14.1',
+165 silly addNameRange     '3.15.0',
+165 silly addNameRange     '3.16.0',
+165 silly addNameRange     '3.17.0',
+165 silly addNameRange     '3.18.0',
+165 silly addNameRange     '3.19.0',
+165 silly addNameRange     '3.20.0',
+165 silly addNameRange     '3.21.0',
+165 silly addNameRange     '3.22.0',
+165 silly addNameRange     '3.23.0',
+165 silly addNameRange     '4.0.3',
+165 silly addNameRange     '3.24.0',
+165 silly addNameRange     '4.1.0',
+165 silly addNameRange     '4.2.0',
+165 silly addNameRange     '4.3.0',
+165 silly addNameRange     '4.4.0',
+165 silly addNameRange     '4.5.0',
+165 silly addNameRange     '4.6.0',
+165 silly addNameRange     '4.7.0',
+165 silly addNameRange     '4.8.0',
+165 silly addNameRange     '4.9.0',
+165 silly addNameRange     '4.10.0',
+165 silly addNameRange     '4.11.0',
+165 silly addNameRange     '4.12.0',
+165 silly addNameRange     '4.13.0',
+165 silly addNameRange     '5.0.0',
+165 silly addNameRange     '5.1.0',
+165 silly addNameRange     '5.2.0',
+165 silly addNameRange     '5.3.0',
+165 silly addNameRange     '5.4.0',
+165 silly addNameRange     '5.5.0',
+165 silly addNameRange     '5.6.0',
+165 silly addNameRange     '5.7.0',
+165 silly addNameRange     '5.8.0',
+165 silly addNameRange     '5.9.0',
+165 silly addNameRange     '5.10.0',
+165 silly addNameRange     '5.11.0',
+165 silly addNameRange     '5.12.0',
+165 silly addNameRange     '5.13.0',
+165 silly addNameRange     '5.13.2',
+165 silly addNameRange     '5.13.4',
+165 silly addNameRange     '5.14.0',
+165 silly addNameRange     '5.14.2',
+165 silly addNameRange     '5.15.0',
+165 silly addNameRange     '5.15.2',
+165 silly addNameRange     '5.16.0',
+165 silly addNameRange     '5.17.0',
+165 silly addNameRange     '5.18.0',
+165 silly addNameRange     '5.18.2',
+165 silly addNameRange     '5.18.3',
+165 silly addNameRange     '5.19.0',
+165 silly addNameRange     '3.11.1',
+165 silly addNameRange     '3.12.0',
+165 silly addNameRange     '3.13.0' ] ]
+166 silly addNamed codemirror@5.19.0
+167 verbose addNamed "5.19.0" is a plain semver version for codemirror
+168 silly cache afterAdd codemirror@5.19.0
+169 verbose afterAdd /Users/iznyn/.npm/codemirror/5.19.0/package/package.json not in flight; writing
+170 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+171 verbose afterAdd /Users/iznyn/.npm/codemirror/5.19.0/package/package.json written
+172 http 304 https://registry.npmjs.org/codemirror-spell-checker
+173 verbose headers { date: 'Wed, 05 Oct 2016 05:01:51 GMT',
+173 verbose headers   via: '1.1 varnish',
+173 verbose headers   'cache-control': 'max-age=300',
+173 verbose headers   etag: '"DT0W3ZUVLW7KT55ZX9IM3TXLU"',
+173 verbose headers   age: '0',
+173 verbose headers   connection: 'keep-alive',
+173 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+173 verbose headers   'x-cache': 'HIT',
+173 verbose headers   'x-cache-hits': '1',
+173 verbose headers   'x-timer': 'S1475643711.102506,VS0,VE1068',
+173 verbose headers   vary: 'Accept-Encoding' }
+174 silly get cb [ 304,
+174 silly get   { date: 'Wed, 05 Oct 2016 05:01:51 GMT',
+174 silly get     via: '1.1 varnish',
+174 silly get     'cache-control': 'max-age=300',
+174 silly get     etag: '"DT0W3ZUVLW7KT55ZX9IM3TXLU"',
+174 silly get     age: '0',
+174 silly get     connection: 'keep-alive',
+174 silly get     'x-served-by': 'cache-sin6927-SIN',
+174 silly get     'x-cache': 'HIT',
+174 silly get     'x-cache-hits': '1',
+174 silly get     'x-timer': 'S1475643711.102506,VS0,VE1068',
+174 silly get     vary: 'Accept-Encoding' } ]
+175 verbose etag https://registry.npmjs.org/codemirror-spell-checker from cache
+176 verbose get saving codemirror-spell-checker to /Users/iznyn/.npm/registry.npmjs.org/codemirror-spell-checker/.cache.json
+177 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+178 silly addNameRange number 2 { name: 'codemirror-spell-checker', range: '*', hasData: true }
+179 silly addNameRange versions [ 'codemirror-spell-checker', [ '1.1.0', '1.1.1', '1.1.2' ] ]
+180 silly addNamed codemirror-spell-checker@1.1.2
+181 verbose addNamed "1.1.2" is a plain semver version for codemirror-spell-checker
+182 silly cache afterAdd codemirror-spell-checker@1.1.2
+183 verbose afterAdd /Users/iznyn/.npm/codemirror-spell-checker/1.1.2/package/package.json not in flight; writing
+184 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+185 verbose afterAdd /Users/iznyn/.npm/codemirror-spell-checker/1.1.2/package/package.json written
+186 silly install resolved [ { name: 'codemirror',
+186 silly install resolved     version: '5.19.0',
+186 silly install resolved     main: 'lib/codemirror.js',
+186 silly install resolved     description: 'Full-featured in-browser code editor',
+186 silly install resolved     license: 'MIT',
+186 silly install resolved     directories: { lib: './lib' },
+186 silly install resolved     scripts: { test: 'node ./test/run.js', lint: 'bin/lint' },
+186 silly install resolved     devDependencies:
+186 silly install resolved      { 'node-static': '0.6.0',
+186 silly install resolved        'phantomjs-prebuilt': '^2.1.12',
+186 silly install resolved        blint: '>=0.1.1' },
+186 silly install resolved     bugs: { url: 'http://github.com/codemirror/CodeMirror/issues' },
+186 silly install resolved     keywords: [ 'JavaScript', 'CodeMirror', 'Editor' ],
+186 silly install resolved     homepage: 'http://codemirror.net',
+186 silly install resolved     maintainers: [ [Object] ],
+186 silly install resolved     repository:
+186 silly install resolved      { type: 'git',
+186 silly install resolved        url: 'git+https://github.com/codemirror/CodeMirror.git' },
+186 silly install resolved     jspm: { directories: {}, dependencies: {}, devDependencies: {} },
+186 silly install resolved     contributors:
+186 silly install resolved      [ [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object],
+186 silly install resolved        [Object] ],
+186 silly install resolved     gitHead: 'a350d03f15df2892e41b094faa85a08459942845',
+186 silly install resolved     _id: 'codemirror@5.19.0',
+186 silly install resolved     _shasum: '71fa8523b9425216a2be4734e8aba625ff66e7ec',
+186 silly install resolved     _from: 'codemirror@*',
+186 silly install resolved     _npmVersion: '3.10.3',
+186 silly install resolved     _nodeVersion: '6.3.0',
+186 silly install resolved     _npmUser: { name: 'marijn', email: 'marijnh@gmail.com' },
+186 silly install resolved     dist:
+186 silly install resolved      { shasum: '71fa8523b9425216a2be4734e8aba625ff66e7ec',
+186 silly install resolved        tarball: 'https://registry.npmjs.org/codemirror/-/codemirror-5.19.0.tgz' },
+186 silly install resolved     _npmOperationalInternal:
+186 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+186 silly install resolved        tmp: 'tmp/codemirror-5.19.0.tgz_1474367524881_0.3967043338343501' },
+186 silly install resolved     _resolved: 'https://registry.npmjs.org/codemirror/-/codemirror-5.19.0.tgz',
+186 silly install resolved     readme: 'ERROR: No README data found!' },
+186 silly install resolved   { name: 'codemirror-spell-checker',
+186 silly install resolved     version: '1.1.2',
+186 silly install resolved     description: 'Dead-simple spell checking in CodeMirror.',
+186 silly install resolved     keywords:
+186 silly install resolved      [ 'codemirror',
+186 silly install resolved        'code',
+186 silly install resolved        'mirror',
+186 silly install resolved        'spell',
+186 silly install resolved        'checker',
+186 silly install resolved        'checking',
+186 silly install resolved        'spellchecker',
+186 silly install resolved        'spellchecking',
+186 silly install resolved        'javascript' ],
+186 silly install resolved     homepage: 'https://github.com/NextStepWebs/codemirror-spell-checker',
+186 silly install resolved     main: './src/js/spell-checker.js',
+186 silly install resolved     license: 'MIT',
+186 silly install resolved     company: 'Next Step Webs, Inc.',
+186 silly install resolved     author: { name: 'Wes Cossick', url: 'http://www.WesCossick.com' },
+186 silly install resolved     bugs: { url: 'https://github.com/NextStepWebs/codemirror-spell-checker/issues' },
+186 silly install resolved     dependencies: { 'typo-js': '*' },
+186 silly install resolved     devDependencies:
+186 silly install resolved      { browserify: '*',
+186 silly install resolved        debug: '*',
+186 silly install resolved        eslint: '*',
+186 silly install resolved        gulp: '*',
+186 silly install resolved        'gulp-concat': '*',
+186 silly install resolved        'gulp-debug': '*',
+186 silly install resolved        'gulp-eslint': '*',
+186 silly install resolved        'gulp-header': '*',
+186 silly install resolved        'gulp-jsbeautifier': '*',
+186 silly install resolved        'gulp-clean-css': '*',
+186 silly install resolved        'gulp-rename': '*',
+186 silly install resolved        'gulp-uglify': '*',
+186 silly install resolved        'vinyl-source-stream': '*',
+186 silly install resolved        'vinyl-buffer': '*' },
+186 silly install resolved     repository:
+186 silly install resolved      { type: 'git',
+186 silly install resolved        url: 'git+https://github.com/NextStepWebs/codemirror-spell-checker.git' },
+186 silly install resolved     gitHead: '07bf459b5a4891fa85a1220a520f90ac427e478a',
+186 silly install resolved     _id: 'codemirror-spell-checker@1.1.2',
+186 silly install resolved     scripts: {},
+186 silly install resolved     _shasum: '1c660f9089483ccb5113b9ba9ca19c3f4993371e',
+186 silly install resolved     _from: 'codemirror-spell-checker@*',
+186 silly install resolved     _npmVersion: '3.3.12',
+186 silly install resolved     _nodeVersion: '5.1.1',
+186 silly install resolved     _npmUser: { name: 'nextstepwebs', email: 'support@nextstepwebs.com' },
+186 silly install resolved     dist:
+186 silly install resolved      { shasum: '1c660f9089483ccb5113b9ba9ca19c3f4993371e',
+186 silly install resolved        tarball: 'https://registry.npmjs.org/codemirror-spell-checker/-/codemirror-spell-checker-1.1.2.tgz' },
+186 silly install resolved     maintainers: [ [Object] ],
+186 silly install resolved     _npmOperationalInternal:
+186 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+186 silly install resolved        tmp: 'tmp/codemirror-spell-checker-1.1.2.tgz_1465926296252_0.14315290143713355' },
+186 silly install resolved     directories: {},
+186 silly install resolved     _resolved: 'https://registry.npmjs.org/codemirror-spell-checker/-/codemirror-spell-checker-1.1.2.tgz',
+186 silly install resolved     readme: 'ERROR: No README data found!' } ]
+187 info install codemirror@5.19.0 into /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+188 info install codemirror-spell-checker@1.1.2 into /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+189 info installOne codemirror@5.19.0
+190 verbose installOne of codemirror to /Applications/MAMP/htdocs/storycms/node_modules/simplemde not in flight; installing
+191 verbose correctMkdir /Users/iznyn/.npm/_locks correctMkdir not in flight; initializing
+192 info installOne codemirror-spell-checker@1.1.2
+193 verbose installOne of codemirror-spell-checker to /Applications/MAMP/htdocs/storycms/node_modules/simplemde not in flight; installing
+194 verbose correctMkdir /Users/iznyn/.npm/_locks correctMkdir not in flight; initializing
+195 verbose lock using /Users/iznyn/.npm/_locks/codemirror-75b4755ffdfa140e.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+196 verbose lock using /Users/iznyn/.npm/_locks/codemirror-spell-checker-d2e7ce401ab5289b.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+197 silly install write writing codemirror 5.19.0 to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+198 silly install write writing codemirror-spell-checker 1.1.2 to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+199 verbose unbuild node_modules/simplemde/node_modules/codemirror
+200 verbose unbuild node_modules/simplemde/node_modules/codemirror-spell-checker
+201 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror is being purged from base /Applications/MAMP/htdocs/storycms
+202 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+203 verbose tar unpack /Users/iznyn/.npm/codemirror/5.19.0/package.tgz
+204 verbose tar unpacking to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+205 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror is being purged
+206 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+207 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker is being purged from base /Applications/MAMP/htdocs/storycms
+208 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+209 silly gunzTarPerm modes [ '755', '644' ]
+210 verbose tar unpack /Users/iznyn/.npm/codemirror-spell-checker/1.1.2/package.tgz
+211 verbose tar unpacking to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+212 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker is being purged
+213 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+214 silly gunzTarPerm modes [ '755', '644' ]
+215 silly gunzTarPerm extractEntry package.json
+216 silly gunzTarPerm extractEntry package.json
+217 silly gunzTarPerm extractEntry README.md
+218 silly gunzTarPerm extractEntry LICENSE
+219 silly gunzTarPerm extractEntry .npmignore
+220 silly gunzTarPerm extractEntry README.md
+221 silly gunzTarPerm extractEntry AUTHORS
+222 silly gunzTarPerm extractEntry CHANGELOG.md
+223 silly gunzTarPerm extractEntry LICENSE
+224 silly gunzTarPerm extractEntry gulpfile.js
+225 silly gunzTarPerm extractEntry CONTRIBUTING.md
+226 silly gunzTarPerm extractEntry bower.json
+227 silly gunzTarPerm extractEntry .travis.yml
+228 silly gunzTarPerm extractEntry addon/merge/merge.js
+229 silly gunzTarPerm extractEntry addon/merge/merge.css
+230 silly gunzTarPerm extractEntry debug/spell-checker.debug.js
+231 silly gunzTarPerm extractEntry debug/spell-checker.js
+232 silly gunzTarPerm extractEntry addon/comment/comment.js
+233 silly gunzTarPerm extractEntry addon/comment/continuecomment.js
+234 silly gunzTarPerm extractEntry addon/display/autorefresh.js
+235 silly gunzTarPerm extractEntry debug/spell-checker.css
+236 silly gunzTarPerm extractEntry addon/display/fullscreen.js
+237 silly gunzTarPerm extractEntry addon/display/panel.js
+238 silly gunzTarPerm extractEntry addon/display/placeholder.js
+239 silly gunzTarPerm extractEntry dist/spell-checker.min.js
+240 silly gunzTarPerm extractEntry dist/en_US.aff
+241 silly gunzTarPerm extractEntry addon/display/rulers.js
+242 silly gunzTarPerm extractEntry addon/display/fullscreen.css
+243 silly gunzTarPerm extractEntry dist/en_US.dic
+244 silly gunzTarPerm extractEntry addon/edit/closebrackets.js
+245 silly gunzTarPerm extractEntry addon/edit/closetag.js
+246 silly gunzTarPerm extractEntry addon/edit/continuelist.js
+247 silly gunzTarPerm extractEntry addon/edit/matchbrackets.js
+248 silly gunzTarPerm extractEntry addon/edit/matchtags.js
+249 silly gunzTarPerm extractEntry addon/edit/trailingspace.js
+250 silly gunzTarPerm extractEntry addon/fold/brace-fold.js
+251 silly gunzTarPerm extractEntry addon/fold/comment-fold.js
+252 silly gunzTarPerm extractEntry addon/fold/foldcode.js
+253 silly gunzTarPerm extractEntry addon/fold/foldgutter.js
+254 silly gunzTarPerm extractEntry addon/fold/indent-fold.js
+255 silly gunzTarPerm extractEntry addon/fold/markdown-fold.js
+256 silly gunzTarPerm extractEntry addon/fold/xml-fold.js
+257 silly gunzTarPerm extractEntry addon/fold/foldgutter.css
+258 silly gunzTarPerm extractEntry dist/spell-checker.min.css
+259 silly gunzTarPerm extractEntry CONTRIBUTING.md
+260 silly gunzTarPerm extractEntry .eslintrc
+261 silly gunzTarPerm extractEntry src/css/spell-checker.css
+262 silly gunzTarPerm extractEntry addon/hint/anyword-hint.js
+263 silly gunzTarPerm extractEntry addon/hint/css-hint.js
+264 silly gunzTarPerm extractEntry src/data/en_US.aff
+265 silly gunzTarPerm extractEntry addon/hint/html-hint.js
+266 silly gunzTarPerm extractEntry addon/hint/javascript-hint.js
+267 silly gunzTarPerm extractEntry src/data/en_US.dic
+268 silly gunzTarPerm extractEntry addon/hint/show-hint.js
+269 silly gunzTarPerm extractEntry addon/hint/sql-hint.js
+270 silly gunzTarPerm extractEntry addon/hint/xml-hint.js
+271 silly gunzTarPerm extractEntry addon/hint/show-hint.css
+272 silly gunzTarPerm extractEntry addon/lint/coffeescript-lint.js
+273 silly gunzTarPerm extractEntry addon/lint/css-lint.js
+274 silly gunzTarPerm extractEntry addon/lint/html-lint.js
+275 silly gunzTarPerm extractEntry addon/lint/javascript-lint.js
+276 silly gunzTarPerm extractEntry addon/lint/json-lint.js
+277 silly gunzTarPerm extractEntry addon/lint/lint.js
+278 silly gunzTarPerm extractEntry addon/lint/yaml-lint.js
+279 silly gunzTarPerm extractEntry addon/lint/lint.css
+280 silly gunzTarPerm extractEntry src/js/spell-checker.js
+281 silly gunzTarPerm extractEntry addon/dialog/dialog.js
+282 silly gunzTarPerm extractEntry addon/dialog/dialog.css
+283 silly gunzTarPerm extractEntry addon/mode/loadmode.js
+284 silly gunzTarPerm extractEntry addon/mode/multiplex.js
+285 silly gunzTarPerm extractEntry addon/mode/multiplex_test.js
+286 silly gunzTarPerm extractEntry addon/mode/overlay.js
+287 silly gunzTarPerm extractEntry addon/mode/simple.js
+288 silly gunzTarPerm extractEntry addon/runmode/colorize.js
+289 silly gunzTarPerm extractEntry addon/runmode/runmode-standalone.js
+290 silly gunzTarPerm extractEntry addon/runmode/runmode.js
+291 silly gunzTarPerm extractEntry addon/runmode/runmode.node.js
+292 silly gunzTarPerm extractEntry addon/scroll/annotatescrollbar.js
+293 silly gunzTarPerm extractEntry addon/scroll/scrollpastend.js
+294 silly gunzTarPerm extractEntry addon/scroll/simplescrollbars.js
+295 silly gunzTarPerm extractEntry addon/scroll/simplescrollbars.css
+296 silly gunzTarPerm extractEntry addon/search/jump-to-line.js
+297 silly gunzTarPerm extractEntry addon/search/match-highlighter.js
+298 silly gunzTarPerm extractEntry addon/search/matchesonscrollbar.js
+299 silly gunzTarPerm extractEntry addon/search/search.js
+300 silly gunzTarPerm extractEntry addon/search/searchcursor.js
+301 silly gunzTarPerm extractEntry addon/search/matchesonscrollbar.css
+302 silly gunzTarPerm extractEntry addon/selection/active-line.js
+303 silly gunzTarPerm extractEntry addon/selection/mark-selection.js
+304 silly gunzTarPerm extractEntry addon/selection/selection-pointer.js
+305 silly gunzTarPerm extractEntry addon/tern/tern.js
+306 silly gunzTarPerm extractEntry addon/tern/worker.js
+307 silly gunzTarPerm extractEntry addon/tern/tern.css
+308 silly gunzTarPerm extractEntry addon/wrap/hardwrap.js
+309 silly gunzTarPerm extractEntry bin/upload-release.js
+310 silly gunzTarPerm extractEntry bin/authors.sh
+311 silly gunzTarPerm extractEntry bin/compress
+312 silly gunzTarPerm extractEntry bin/lint
+313 silly gunzTarPerm extractEntry bin/release
+314 silly gunzTarPerm extractEntry bin/source-highlight
+315 silly gunzTarPerm extractEntry bower.json
+316 silly gunzTarPerm extractEntry keymap/emacs.js
+317 silly gunzTarPerm extractEntry keymap/sublime.js
+318 silly gunzTarPerm extractEntry keymap/vim.js
+319 silly gunzTarPerm extractEntry lib/codemirror.js
+320 verbose write writing to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/package.json
+321 info preinstall codemirror-spell-checker@1.1.2
+322 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/package.json
+323 silly prepareForInstallMany adding typo-js@* from codemirror-spell-checker dependencies
+324 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/package.json
+325 silly gunzTarPerm extractEntry lib/codemirror.css
+326 silly gunzTarPerm extractEntry mode/meta.js
+327 silly gunzTarPerm extractEntry mode/nsis/nsis.js
+328 silly cache add args [ 'typo-js@*', null ]
+329 verbose cache add spec typo-js@*
+330 silly cache add parsed spec Result {
+330 silly cache add   raw: 'typo-js@*',
+330 silly cache add   scope: null,
+330 silly cache add   name: 'typo-js',
+330 silly cache add   rawSpec: '*',
+330 silly cache add   spec: '*',
+330 silly cache add   type: 'range' }
+331 silly addNamed typo-js@*
+332 verbose addNamed "*" is a valid semver range for typo-js
+333 silly addNameRange { name: 'typo-js', range: '*', hasData: false }
+334 silly mapToRegistry name typo-js
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry data Result {
+337 silly mapToRegistry   raw: 'typo-js',
+337 silly mapToRegistry   scope: null,
+337 silly mapToRegistry   name: 'typo-js',
+337 silly mapToRegistry   rawSpec: '',
+337 silly mapToRegistry   spec: 'latest',
+337 silly mapToRegistry   type: 'tag' }
+338 silly mapToRegistry uri https://registry.npmjs.org/typo-js
+339 verbose addNameRange registry:https://registry.npmjs.org/typo-js not in flight; fetching
+340 silly gunzTarPerm extractEntry mode/asn.1/asn.1.js
+341 silly gunzTarPerm extractEntry mode/asterisk/asterisk.js
+342 verbose request uri https://registry.npmjs.org/typo-js
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 12:01:52 PM
+345 verbose etag "6UC86VGTKZ8VN73PVA5ZWZTQ7"
+346 http request GET https://registry.npmjs.org/typo-js
+347 silly gunzTarPerm extractEntry mode/brainfuck/brainfuck.js
+348 silly gunzTarPerm extractEntry mode/clike/clike.js
+349 silly gunzTarPerm extractEntry mode/clojure/clojure.js
+350 silly gunzTarPerm extractEntry mode/cmake/cmake.js
+351 silly gunzTarPerm extractEntry mode/cobol/cobol.js
+352 silly gunzTarPerm extractEntry mode/coffeescript/coffeescript.js
+353 silly gunzTarPerm extractEntry mode/commonlisp/commonlisp.js
+354 silly gunzTarPerm extractEntry mode/crystal/crystal.js
+355 silly gunzTarPerm extractEntry mode/css/css.js
+356 silly gunzTarPerm extractEntry mode/cypher/cypher.js
+357 silly gunzTarPerm extractEntry mode/d/d.js
+358 silly gunzTarPerm extractEntry mode/dart/dart.js
+359 silly gunzTarPerm extractEntry mode/diff/diff.js
+360 silly gunzTarPerm extractEntry mode/django/django.js
+361 silly gunzTarPerm extractEntry mode/dockerfile/dockerfile.js
+362 silly gunzTarPerm extractEntry mode/dtd/dtd.js
+363 silly gunzTarPerm extractEntry mode/dylan/dylan.js
+364 silly gunzTarPerm extractEntry mode/ebnf/ebnf.js
+365 silly gunzTarPerm extractEntry mode/ecl/ecl.js
+366 silly gunzTarPerm extractEntry mode/eiffel/eiffel.js
+367 silly gunzTarPerm extractEntry mode/elm/elm.js
+368 silly gunzTarPerm extractEntry mode/erlang/erlang.js
+369 silly gunzTarPerm extractEntry mode/factor/factor.js
+370 silly gunzTarPerm extractEntry mode/fcl/fcl.js
+371 silly gunzTarPerm extractEntry mode/forth/forth.js
+372 silly gunzTarPerm extractEntry mode/fortran/fortran.js
+373 silly gunzTarPerm extractEntry mode/gas/gas.js
+374 silly gunzTarPerm extractEntry mode/gfm/gfm.js
+375 silly gunzTarPerm extractEntry mode/gherkin/gherkin.js
+376 silly gunzTarPerm extractEntry mode/go/go.js
+377 silly gunzTarPerm extractEntry mode/groovy/groovy.js
+378 silly gunzTarPerm extractEntry mode/haml/haml.js
+379 silly gunzTarPerm extractEntry mode/handlebars/handlebars.js
+380 silly gunzTarPerm extractEntry mode/haskell/haskell.js
+381 silly gunzTarPerm extractEntry mode/haskell-literate/haskell-literate.js
+382 silly gunzTarPerm extractEntry mode/haxe/haxe.js
+383 silly gunzTarPerm extractEntry mode/htmlembedded/htmlembedded.js
+384 silly gunzTarPerm extractEntry mode/htmlmixed/htmlmixed.js
+385 silly gunzTarPerm extractEntry mode/http/http.js
+386 silly gunzTarPerm extractEntry mode/idl/idl.js
+387 silly gunzTarPerm extractEntry mode/javascript/javascript.js
+388 silly gunzTarPerm extractEntry mode/jinja2/jinja2.js
+389 silly gunzTarPerm extractEntry mode/jsx/jsx.js
+390 silly gunzTarPerm extractEntry mode/julia/julia.js
+391 silly gunzTarPerm extractEntry mode/livescript/livescript.js
+392 silly gunzTarPerm extractEntry mode/lua/lua.js
+393 silly gunzTarPerm extractEntry mode/markdown/markdown.js
+394 silly gunzTarPerm extractEntry mode/mathematica/mathematica.js
+395 silly gunzTarPerm extractEntry mode/mbox/mbox.js
+396 silly gunzTarPerm extractEntry mode/apl/apl.js
+397 silly gunzTarPerm extractEntry mode/mirc/mirc.js
+398 silly gunzTarPerm extractEntry mode/mllike/mllike.js
+399 silly gunzTarPerm extractEntry mode/modelica/modelica.js
+400 silly gunzTarPerm extractEntry mode/mscgen/mscgen.js
+401 silly gunzTarPerm extractEntry mode/mumps/mumps.js
+402 silly gunzTarPerm extractEntry mode/nginx/nginx.js
+403 silly gunzTarPerm extractEntry mode/asciiarmor/asciiarmor.js
+404 silly gunzTarPerm extractEntry mode/ntriples/ntriples.js
+405 silly gunzTarPerm extractEntry mode/octave/octave.js
+406 silly gunzTarPerm extractEntry mode/oz/oz.js
+407 silly gunzTarPerm extractEntry mode/pascal/pascal.js
+408 silly gunzTarPerm extractEntry mode/pegjs/pegjs.js
+409 silly gunzTarPerm extractEntry mode/perl/perl.js
+410 silly gunzTarPerm extractEntry mode/php/php.js
+411 silly gunzTarPerm extractEntry mode/pig/pig.js
+412 silly gunzTarPerm extractEntry mode/powershell/powershell.js
+413 silly gunzTarPerm extractEntry mode/properties/properties.js
+414 silly gunzTarPerm extractEntry mode/protobuf/protobuf.js
+415 silly gunzTarPerm extractEntry mode/pug/pug.js
+416 silly gunzTarPerm extractEntry mode/puppet/puppet.js
+417 silly gunzTarPerm extractEntry mode/python/python.js
+418 silly gunzTarPerm extractEntry mode/q/q.js
+419 silly gunzTarPerm extractEntry mode/r/r.js
+420 silly gunzTarPerm extractEntry mode/rpm/rpm.js
+421 silly gunzTarPerm extractEntry mode/rpm/changes/index.html
+422 silly gunzTarPerm extractEntry mode/rst/rst.js
+423 silly gunzTarPerm extractEntry mode/ruby/ruby.js
+424 silly gunzTarPerm extractEntry mode/rust/rust.js
+425 silly gunzTarPerm extractEntry mode/sas/sas.js
+426 silly gunzTarPerm extractEntry mode/sass/sass.js
+427 silly gunzTarPerm extractEntry mode/scheme/scheme.js
+428 silly gunzTarPerm extractEntry mode/shell/shell.js
+429 silly gunzTarPerm extractEntry mode/sieve/sieve.js
+430 silly gunzTarPerm extractEntry mode/slim/slim.js
+431 silly gunzTarPerm extractEntry mode/smalltalk/smalltalk.js
+432 silly gunzTarPerm extractEntry mode/smarty/smarty.js
+433 silly gunzTarPerm extractEntry mode/solr/solr.js
+434 silly gunzTarPerm extractEntry mode/soy/soy.js
+435 silly gunzTarPerm extractEntry mode/sparql/sparql.js
+436 silly gunzTarPerm extractEntry mode/spreadsheet/spreadsheet.js
+437 silly gunzTarPerm extractEntry mode/sql/sql.js
+438 silly gunzTarPerm extractEntry mode/stex/stex.js
+439 silly gunzTarPerm extractEntry mode/stylus/stylus.js
+440 silly gunzTarPerm extractEntry mode/swift/swift.js
+441 silly gunzTarPerm extractEntry mode/tcl/tcl.js
+442 silly gunzTarPerm extractEntry mode/textile/textile.js
+443 silly gunzTarPerm extractEntry mode/tiddlywiki/tiddlywiki.js
+444 silly gunzTarPerm extractEntry mode/tiddlywiki/tiddlywiki.css
+445 silly gunzTarPerm extractEntry mode/tiki/tiki.js
+446 silly gunzTarPerm extractEntry mode/tiki/tiki.css
+447 silly gunzTarPerm extractEntry mode/toml/toml.js
+448 silly gunzTarPerm extractEntry mode/tornado/tornado.js
+449 silly gunzTarPerm extractEntry mode/troff/troff.js
+450 silly gunzTarPerm extractEntry mode/ttcn/ttcn.js
+451 silly gunzTarPerm extractEntry mode/ttcn-cfg/ttcn-cfg.js
+452 silly gunzTarPerm extractEntry mode/turtle/turtle.js
+453 silly gunzTarPerm extractEntry mode/twig/twig.js
+454 silly gunzTarPerm extractEntry mode/vb/vb.js
+455 silly gunzTarPerm extractEntry mode/vbscript/vbscript.js
+456 silly gunzTarPerm extractEntry mode/velocity/velocity.js
+457 silly gunzTarPerm extractEntry mode/verilog/verilog.js
+458 silly gunzTarPerm extractEntry mode/vhdl/vhdl.js
+459 silly gunzTarPerm extractEntry mode/vue/vue.js
+460 silly gunzTarPerm extractEntry mode/webidl/webidl.js
+461 silly gunzTarPerm extractEntry mode/xml/xml.js
+462 silly gunzTarPerm extractEntry mode/xquery/xquery.js
+463 silly gunzTarPerm extractEntry mode/yacas/yacas.js
+464 silly gunzTarPerm extractEntry mode/yaml/yaml.js
+465 silly gunzTarPerm extractEntry mode/yaml-frontmatter/yaml-frontmatter.js
+466 silly gunzTarPerm extractEntry mode/z80/z80.js
+467 silly gunzTarPerm extractEntry theme/midnight.css
+468 silly gunzTarPerm extractEntry theme/3024-day.css
+469 silly gunzTarPerm extractEntry theme/abcdef.css
+470 silly gunzTarPerm extractEntry theme/ambiance-mobile.css
+471 silly gunzTarPerm extractEntry theme/ambiance.css
+472 silly gunzTarPerm extractEntry theme/base16-dark.css
+473 silly gunzTarPerm extractEntry theme/base16-light.css
+474 silly gunzTarPerm extractEntry theme/bespin.css
+475 silly gunzTarPerm extractEntry theme/blackboard.css
+476 silly gunzTarPerm extractEntry theme/cobalt.css
+477 silly gunzTarPerm extractEntry theme/colorforth.css
+478 silly gunzTarPerm extractEntry theme/dracula.css
+479 silly gunzTarPerm extractEntry theme/eclipse.css
+480 silly gunzTarPerm extractEntry theme/elegant.css
+481 silly gunzTarPerm extractEntry theme/erlang-dark.css
+482 silly gunzTarPerm extractEntry theme/hopscotch.css
+483 silly gunzTarPerm extractEntry theme/icecoder.css
+484 silly gunzTarPerm extractEntry theme/isotope.css
+485 silly gunzTarPerm extractEntry theme/lesser-dark.css
+486 silly gunzTarPerm extractEntry theme/liquibyte.css
+487 silly gunzTarPerm extractEntry theme/material.css
+488 silly gunzTarPerm extractEntry theme/mbo.css
+489 silly gunzTarPerm extractEntry theme/mdn-like.css
+490 silly gunzTarPerm extractEntry theme/3024-night.css
+491 silly gunzTarPerm extractEntry theme/monokai.css
+492 silly gunzTarPerm extractEntry theme/neat.css
+493 silly gunzTarPerm extractEntry theme/neo.css
+494 silly gunzTarPerm extractEntry theme/night.css
+495 silly gunzTarPerm extractEntry theme/panda-syntax.css
+496 silly gunzTarPerm extractEntry theme/paraiso-dark.css
+497 silly gunzTarPerm extractEntry theme/paraiso-light.css
+498 silly gunzTarPerm extractEntry theme/pastel-on-dark.css
+499 silly gunzTarPerm extractEntry theme/railscasts.css
+500 silly gunzTarPerm extractEntry theme/rubyblue.css
+501 silly gunzTarPerm extractEntry theme/seti.css
+502 silly gunzTarPerm extractEntry theme/solarized.css
+503 silly gunzTarPerm extractEntry theme/the-matrix.css
+504 silly gunzTarPerm extractEntry theme/tomorrow-night-bright.css
+505 silly gunzTarPerm extractEntry theme/tomorrow-night-eighties.css
+506 silly gunzTarPerm extractEntry theme/ttcn.css
+507 silly gunzTarPerm extractEntry theme/twilight.css
+508 silly gunzTarPerm extractEntry theme/vibrant-ink.css
+509 silly gunzTarPerm extractEntry theme/xq-dark.css
+510 silly gunzTarPerm extractEntry theme/xq-light.css
+511 silly gunzTarPerm extractEntry theme/yeti.css
+512 silly gunzTarPerm extractEntry theme/zenburn.css
+513 verbose write writing to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror/package.json
+514 info preinstall codemirror@5.19.0
+515 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror/package.json
+516 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror/package.json
+517 silly install resolved []
+518 verbose about to build /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+519 info build /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+520 info linkStuff codemirror@5.19.0
+521 silly linkStuff codemirror@5.19.0 has /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules as its parent node_modules
+522 verbose linkBins codemirror@5.19.0
+523 verbose linkMans codemirror@5.19.0
+524 verbose rebuildBundles codemirror@5.19.0
+525 info install codemirror@5.19.0
+526 info postinstall codemirror@5.19.0
+527 verbose unlock done using /Users/iznyn/.npm/_locks/codemirror-75b4755ffdfa140e.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror
+528 http 304 https://registry.npmjs.org/typo-js
+529 verbose headers { date: 'Wed, 05 Oct 2016 05:01:52 GMT',
+529 verbose headers   via: '1.1 varnish',
+529 verbose headers   'cache-control': 'max-age=300',
+529 verbose headers   etag: '"6UC86VGTKZ8VN73PVA5ZWZTQ7"',
+529 verbose headers   age: '0',
+529 verbose headers   connection: 'keep-alive',
+529 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+529 verbose headers   'x-cache': 'HIT',
+529 verbose headers   'x-cache-hits': '1',
+529 verbose headers   'x-timer': 'S1475643712.520866,VS0,VE219',
+529 verbose headers   vary: 'Accept-Encoding' }
+530 silly get cb [ 304,
+530 silly get   { date: 'Wed, 05 Oct 2016 05:01:52 GMT',
+530 silly get     via: '1.1 varnish',
+530 silly get     'cache-control': 'max-age=300',
+530 silly get     etag: '"6UC86VGTKZ8VN73PVA5ZWZTQ7"',
+530 silly get     age: '0',
+530 silly get     connection: 'keep-alive',
+530 silly get     'x-served-by': 'cache-sin6926-SIN',
+530 silly get     'x-cache': 'HIT',
+530 silly get     'x-cache-hits': '1',
+530 silly get     'x-timer': 'S1475643712.520866,VS0,VE219',
+530 silly get     vary: 'Accept-Encoding' } ]
+531 verbose etag https://registry.npmjs.org/typo-js from cache
+532 verbose get saving typo-js to /Users/iznyn/.npm/registry.npmjs.org/typo-js/.cache.json
+533 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+534 silly addNameRange number 2 { name: 'typo-js', range: '*', hasData: true }
+535 silly addNameRange versions [ 'typo-js', [ '1.0.0', '1.0.1' ] ]
+536 silly addNamed typo-js@1.0.1
+537 verbose addNamed "1.0.1" is a plain semver version for typo-js
+538 silly cache afterAdd typo-js@1.0.1
+539 verbose afterAdd /Users/iznyn/.npm/typo-js/1.0.1/package/package.json not in flight; writing
+540 verbose correctMkdir /Users/iznyn/.npm correctMkdir not in flight; initializing
+541 verbose afterAdd /Users/iznyn/.npm/typo-js/1.0.1/package/package.json written
+542 silly install resolved [ { name: 'typo-js',
+542 silly install resolved     version: '1.0.1',
+542 silly install resolved     description: 'A Hunspell-style spellchecker.',
+542 silly install resolved     main: 'typo.js',
+542 silly install resolved     repository: { type: 'git', url: 'git://github.com/cfinke/Typo.js.git' },
+542 silly install resolved     keywords: [ 'spellcheck', 'spellchecker', 'hunspell', 'typo', 'speling' ],
+542 silly install resolved     author:
+542 silly install resolved      { name: 'Christopher Finke',
+542 silly install resolved        email: 'cfinke@gmail.com',
+542 silly install resolved        url: 'http://www.chrisfinke.com/' },
+542 silly install resolved     license: 'BSD-3-Clause',
+542 silly install resolved     bugs: { url: 'https://github.com/cfinke/Typo.js/issues' },
+542 silly install resolved     homepage: 'https://github.com/cfinke/Typo.js#readme',
+542 silly install resolved     tonicExample: 'var Typo = require(\'typo-js\'); var dictionary = new Typo(\'en_US\'); dictionary.check(\'mispelled\');',
+542 silly install resolved     _id: 'typo-js@1.0.1',
+542 silly install resolved     scripts: {},
+542 silly install resolved     _shasum: '1b15749fdea49ca6227665aed89545ec2eb1ea25',
+542 silly install resolved     _from: 'typo-js@*',
+542 silly install resolved     _npmVersion: '2.12.1',
+542 silly install resolved     _nodeVersion: '0.10.32',
+542 silly install resolved     _npmUser: { name: 'cfinke', email: 'cfinke@gmail.com' },
+542 silly install resolved     dist:
+542 silly install resolved      { shasum: '1b15749fdea49ca6227665aed89545ec2eb1ea25',
+542 silly install resolved        tarball: 'https://registry.npmjs.org/typo-js/-/typo-js-1.0.1.tgz' },
+542 silly install resolved     maintainers: [ [Object] ],
+542 silly install resolved     directories: {},
+542 silly install resolved     _resolved: 'https://registry.npmjs.org/typo-js/-/typo-js-1.0.1.tgz',
+542 silly install resolved     readme: 'ERROR: No README data found!' } ]
+543 info install typo-js@1.0.1 into /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+544 info installOne typo-js@1.0.1
+545 verbose installOne of typo-js to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker not in flight; installing
+546 verbose correctMkdir /Users/iznyn/.npm/_locks correctMkdir not in flight; initializing
+547 verbose lock using /Users/iznyn/.npm/_locks/typo-js-88d55df65844e886.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+548 silly install write writing typo-js 1.0.1 to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+549 verbose unbuild node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+550 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js is being purged from base /Applications/MAMP/htdocs/storycms
+551 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+552 verbose tar unpack /Users/iznyn/.npm/typo-js/1.0.1/package.tgz
+553 verbose tar unpacking to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+554 silly gentlyRm /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js is being purged
+555 verbose gentlyRm don't care about contents; nuking /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+556 silly gunzTarPerm modes [ '755', '644' ]
+557 silly gunzTarPerm extractEntry package.json
+558 silly gunzTarPerm extractEntry README.md
+559 silly gunzTarPerm extractEntry typo.js
+560 silly gunzTarPerm extractEntry dictionaries/en_US/README.md
+561 silly gunzTarPerm extractEntry dictionaries/en_US/en_US.aff
+562 silly gunzTarPerm extractEntry dictionaries/en_US/en_US.dic
+563 verbose write writing to /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js/package.json
+564 info preinstall typo-js@1.0.1
+565 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js/package.json
+566 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js/package.json
+567 silly install resolved []
+568 verbose about to build /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+569 info build /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+570 info linkStuff typo-js@1.0.1
+571 silly linkStuff typo-js@1.0.1 has /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules as its parent node_modules
+572 verbose linkBins typo-js@1.0.1
+573 verbose linkMans typo-js@1.0.1
+574 verbose rebuildBundles typo-js@1.0.1
+575 info install typo-js@1.0.1
+576 info postinstall typo-js@1.0.1
+577 verbose unlock done using /Users/iznyn/.npm/_locks/typo-js-88d55df65844e886.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker/node_modules/typo-js
+578 verbose about to build /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+579 info build /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+580 info linkStuff codemirror-spell-checker@1.1.2
+581 silly linkStuff codemirror-spell-checker@1.1.2 has /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules as its parent node_modules
+582 verbose linkBins codemirror-spell-checker@1.1.2
+583 verbose linkMans codemirror-spell-checker@1.1.2
+584 verbose rebuildBundles codemirror-spell-checker@1.1.2
+585 verbose rebuildBundles [ 'typo-js' ]
+586 info install codemirror-spell-checker@1.1.2
+587 info postinstall codemirror-spell-checker@1.1.2
+588 verbose unlock done using /Users/iznyn/.npm/_locks/codemirror-spell-checker-d2e7ce401ab5289b.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde/node_modules/codemirror-spell-checker
+589 verbose about to build /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+590 info build /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+591 info linkStuff simplemde@1.11.2
+592 silly linkStuff simplemde@1.11.2 has /Applications/MAMP/htdocs/storycms/node_modules as its parent node_modules
+593 verbose linkBins simplemde@1.11.2
+594 verbose linkMans simplemde@1.11.2
+595 verbose rebuildBundles simplemde@1.11.2
+596 verbose rebuildBundles [ 'codemirror', 'codemirror-spell-checker' ]
+597 info install simplemde@1.11.2
+598 info postinstall simplemde@1.11.2
+599 verbose unlock done using /Users/iznyn/.npm/_locks/simplemde-136ba58d69695119.lock for /Applications/MAMP/htdocs/storycms/node_modules/simplemde
+600 verbose validateInstall loading /Applications/MAMP/htdocs/storycms/package.json for validation
+601 verbose stack Error: The package laravel-elixir@6.0.0-11 does not satisfy its siblings' peerDependencies requirements!
+601 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+601 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+601 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+601 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+601 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+601 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+601 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+601 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+601 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+601 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+602 verbose cwd /Applications/MAMP/htdocs/storycms
+603 error Darwin 15.6.0
+604 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "simplemde" "--save-dev"
+605 error node v4.5.0
+606 error npm  v2.15.9
+607 error code EPEERINVALID
+608 error peerinvalid The package laravel-elixir@6.0.0-11 does not satisfy its siblings' peerDependencies requirements!
+608 error peerinvalid Peer laravel-elixir-eslint@3.0.0 wants laravel-elixir@>=3.0.0
+609 verbose exit [ 1, true ]

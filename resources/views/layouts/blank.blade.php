@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>@yield('title') StoryCMS</title>
-	<link href="/css/ghost-admin.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/admin-lte.css">
+  <link rel="stylesheet" href="/css/custom.css">
 </head>
 <body class="ghost-login">
 	<div class="liquid-target-container"></div>
