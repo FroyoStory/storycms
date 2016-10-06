@@ -24,12 +24,13 @@ class PostController extends FrontController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        $post = Post::where('slug', $id)->firstOrFail();
+        $post = Post::with('comment', 'comment.user')->where('slug', $slug)->firstOrFail();
 
-        $this->data['post']     = $post;
-        $this->data['relateds'] = $post->related();
+        $this->data['post']      = $post;
+        $this->data['comments']  = $post->comment;
+        $this->data['relateds']  = $post->related();
 
         return view('front.posts.show', $this->data);
     }
