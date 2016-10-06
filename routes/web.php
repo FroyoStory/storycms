@@ -17,6 +17,7 @@
 Route::get('/', 'Front\HomeController@index');
 Route::get('blog', 'Front\PostController@index');
 Route::get('blog/{slug}', 'Front\PostController@show');
+Route::post('comment/{id}', 'Front\CommentController@store');
 //--------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------

@@ -64,4 +64,9 @@ class Post extends Model implements Transformable
     {
         return $this->where('id', '!=', $this->id)->limit(5)->get();
     }
+
+    public function comment()
+    {
+        return $this->hasMany(Comment::class);
+    }
 }
