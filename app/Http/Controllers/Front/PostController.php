@@ -28,9 +28,9 @@ class PostController extends FrontController
     {
         $post = Post::with('comment', 'comment.user')->where('slug', $slug)->firstOrFail();
 
-        $this->data['post']     = $post;
+        $this->data['post']      = $post;
         $this->data['comments']  = $post->comment;
-        $this->data['relateds'] = $post->related();
+        $this->data['relateds']  = $post->related();
 
         return view('front.posts.show', $this->data);
     }
