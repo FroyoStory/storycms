@@ -4,6 +4,9 @@ require('laravel-elixir-remove')
 
 elixir.ready(function() {
   elixir.webpack.mergeConfig({
+    node: {
+      fs: "empty"
+    },
     babel: {
         presets: ['es2015', 'stage-2'],
         plugins: ['transform-runtime'],
@@ -11,7 +14,8 @@ elixir.ready(function() {
     },
     module: {
       preLoaders: [
-        { test: /\.js?$/, loader: 'eslint', exclude: /node_modules/ }
+        { test: /\.js?$/, loader: 'eslint', exclude: /node_modules/ },
+        { test: /\.vue?$/, loader: 'eslint', exclude: /node_modules/ }
       ],
       loaders: [
         { test: /\.css$/, loader: 'css' },
@@ -47,6 +51,7 @@ elixir(mix => {
 
   mix.remove('./public/css/')
   mix.styles(['bootstrap.css', 'ghost-admin.css'], 'public/css/app.css')
+  mix.styles('*.css', 'public/css/app.css')
   mix.less(['admin.less', 'skins/skin-blue.less'], 'public/css/admin-lte.css')
   mix.sass('custom.sass', 'public/css/custom.css')
   // mix.styles(['./public/css/app.css', './public/css/admin-lte.css', './public/css/custom.css'], 'public/css/build.css')
