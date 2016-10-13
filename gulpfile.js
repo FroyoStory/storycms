@@ -10,6 +10,9 @@ elixir.ready(function() {
         comments: false
     },
     module: {
+      preLoaders: [
+        { test: /\.js?$/, loader: 'eslint', exclude: /node_modules/ }
+      ],
       loaders: [
         { test: /\.css$/, loader: 'css' },
         { test: /.*\.(ttf|eot|woff|woff2|svg)(\?.*)?$/i, include: /fonts/, loader: 'url' },
@@ -18,6 +21,11 @@ elixir.ready(function() {
         { test: /\.less$/, loader: 'less' },
         { test: /\.vue$/, loader: 'vue' }
       ]
+    },
+    eslint: {
+      formatter: require('eslint-friendly-formatter'),
+      failOnWarning: false,
+      failOnError: true
     }
   });
 });
